@@ -2,7 +2,7 @@
 <!--
 Lesson 02b - Devops Workflow
 -->
-<lesson status="beta">
+<lesson status="alpha">
     <!-- Activity metadata ... override anything from the course or organizer -->
 
     <!-- Agenda -->
@@ -143,7 +143,6 @@ Lesson 02b - Devops Workflow
         <div class="left">
             <p>On the Github website, fork the  repository you want
                 to work with or contribute to.</p>
-                <p>This is your own copy of a shared repository.</p>
             <p></p>
         </div>
         <div class="right">
@@ -153,9 +152,7 @@ Lesson 02b - Devops Workflow
 
     <slide title="Clone your fork locally" layout="normal">
         <div class="left">
-            <p>Cloning creates a locally-stored duplicate of your repository.</p>
-            <p>Changes you make locally do not affect the remote repository until
-            you explicitly say so.</p>
+            <p>You should remember this from last week :)</p>
         </div>
         <div class="right">
             <img class="scale" width="600" height="481" src="/data/tutorials/pix/2-5.png"/>

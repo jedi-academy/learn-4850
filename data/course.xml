@@ -9,7 +9,7 @@ Course metadata for Comp4711
     <subtitle>ACIT4850</subtitle>
     <author>James L. Parry</author>
     <email>jim_parry@bcit.ca</email>
-    <outline>http://www.bcit.ca/study/outlines/20153035498</outline>
+    <outline>http://www.bcit.ca/study/outlines/20161073674</outline>
     <session>Winter 2016</session>
     <school>B.C. Institute of Technology</school>
     <site>http://www.bcit.ca/cas/computing/</site>
@@ -18,7 +18,7 @@ Course metadata for Comp4711
     <!-- An introduction, shown at the top of the course homepage -->
     <intro>
         This webapp is an experiment to leverage the course materials for 
-        COMP4711 at BCIT, making them easier for my dayschool students to
+        ACIT4850 and COMP4711 at BCIT, making them easier for my dayschool students to
         access, and making them more broadly accessible, for instance
         to the CodeIgniter community.<br/>
         Something I will be asking all of the students to do is, to provide
