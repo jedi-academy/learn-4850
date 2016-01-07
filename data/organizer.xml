@@ -4,18 +4,18 @@ Course organizer for Comp4711
 -->
 <organizer>
     <week num="1">
-        <topic>Introduction to MVC Webapps</topic>
-        <lesson type="lesson" name="intro00" pdf="4850-intro00-in-class.pdf">Course Introduction</lesson>
+        <topic>Introduction to MVC Webapps &amp; to Devops</topic>
+        <lesson type="lesson" name="intro00" pdf="4850-intro00-course-intro.pdf">Course Introduction</lesson>
         <lesson type="lesson" name="intro01" pdf="4850-intro01-introduction.pdf">Material Introduction</lesson>
         <lesson type="lesson" name="intro02" pdf="4850-intro02-golden-rules.pdf">Golden Rules</lesson>
-        <lesson type="lesson" name="dev01" pdf="4850-dev01-devops-workflow.pdf">Devops Workflow</lesson>
+        <lesson type="lesson" name="dev01" domain="devops.jlparry.com" pdf="4850-dev01-devops-workflow.pdf">Devops Introduction</lesson>
 <!--        <tutorial type="tutorial" name="setup01" pdf="setup01-xampp-installation.pdf">XAMPP Installation</tutorial>
         <tutorial type="tutorial" name="setup02" pdf="setup02-virtual-hosting-setup.pdf">Virtual Hosting Setup</tutorial>
         <tutorial type="tutorial" name="setup03" pdf="setup03-php-crash-course.pdf">PHP Crash Course</tutorial>
         <lab type="lab" name="lab01" duedate="2015.09.13 17:30" pdf="lab01-development-setup.pdf">Development Setup</lab>
 -->    </week>
     <week num="2">
-        <topic>CodeIgniter MVC Framework</topic>
+        <topic>CodeIgniter MVC Framework &amp; Devops Workflow</topic>
  <!--        <lesson type="lesson" name="basic01" pdf="basic01-mvc-framework-introduction.pdf">MVC Framework Introduction</lesson>
         <github type="github" name="contacts" link="https://github.com/comp4711/example-contacts">Example webapp - contacts</github>
         <lesson type="lesson" name="dev01" pdf="dev01-devops-workflow.pdf">Devops Workflow</lesson>
@@ -27,27 +27,27 @@ Course organizer for Comp4711
            -->
     </week>
     <week num="3">
-        <topic>Controllers &amp; Routing</topic>
+        <topic>Controllers &amp; Routing; Devops Collaboration</topic>
   <!--         <lesson type="lesson" name="basic02" pdf="basic02-controller-concepts.pdf">Controller Concepts</lesson>
         <tutorial type="tutorial" name="normal01" pdf="normal01-codeigniter-controllers.pdf">CodeIgniter Controllers</tutorial>
         <lab type="lab" name="lab03" duedate="2015.09.27 17:30" pdf="lab03-working-with-controllers.pdf">Working With Controllers</lab>
          -->
     </week>
     <week num="4">
-        <topic>Models &amp; ORM</topic>
+        <topic>Models &amp; ORM; Devops Issues</topic>
   <!--       <lesson type="lesson" name="basic03" pdf="basic03-models.pdf">Models</lesson>
         <lab type="lab" name="" duedate="2015.10.08">Work on or complete assignment 1</lab>
         <assignment type="assignment" name="assignment1" duedate="2015.10.02 23:59" pdf="assignment1-basic-webapp.pdf">Basic Webapp</assignment>
            -->
     </week>
     <week num="5">
-        <topic>Models (continued)</topic>
+        <topic>Views &amp; Templating; Library Integration</topic>
   <!--        <lesson type="lesson" name="basic03" pdf="basic03-models.pdf">Models</lesson>
         <lab type="lab" name="" duedate="">No lab because instructor sick</lab>
           -->
     </week>
     <week num="6">
-        <topic>Views &amp; Templating</topic>
+        <topic>Helpers &amp; CSS / Javascript Integration; Component Integration</topic>
   <!--         <lesson type="lesson" name="basic04" pdf="basic04-views.pdf">Views</lesson>
         <github type="github" name="forms" link="https://github.com/comp4711/example-forms">Example webapp - forms</github>
         <tutorial type="tutorial" name="normal02" pdf="normal02-working-with-codeigniter-models.pdf">Working With CodeIgniter Models</tutorial>
@@ -55,7 +55,7 @@ Course organizer for Comp4711
          -->
     </week>
     <week num="7">
-        <topic>Helpers &amp; CSS / Javascript Integration</topic>
+        <topic>MVC Best Practives</topic>
 <!--          <lesson type="lesson" name="basic05" pdf="basic05-helpers-and-addons.pdf">Helpers and Addons</lesson>
         <lesson type="lesson" name="midterm" pdf="lessons1-6-midterm-review.pdf">Midterm Review</lesson>
         <tutorial type="tutorial" name="normal05" pdf="normal05-working-with-libraries-and-helpers.pdf">Working With Libraries and Helpers</tutorial>
@@ -69,7 +69,7 @@ Course organizer for Comp4711
         <topic>Midterm exam</topic>
     </week>
     <week num="9">
-        <topic>XML Introduction &amp; Structure</topic>
+        <topic>XML Basics; Constrining XML</topic>
   <!--        <lesson type="lesson" name="xml01">XML Basics</lesson>
         <lesson type="lesson" name="xml02">Constraining XML</lesson>
         <example type="example" name="examples-xml.zip">Sample XML documents</example>
@@ -79,13 +79,13 @@ Course organizer for Comp4711
            -->
    </week>
     <week num="10">
-        <topic>n/a (Stat)</topic>
+        <topic>XML Processing; XML Strategies</topic>
     <!--         <lab type="lab" name="" duedate="">Work on or complete assignment 2</lab>
         <assignment type="assignment" name="assignment2" duedate="2015.11.15 23:59" pdf="assignment2-functional-webapp.pdf">Functional Webapp</assignment>
         -->
    </week>
     <week num="11">
-        <topic>XML Processing</topic>
+        <topic>XML Schemas</topic>
  <!--       <lesson type="lesson" name="xml03">XML Processing</lesson>
         <tutorial type="tutorial" name="xml02" >XML Processing</tutorial>
         <assignment type="assignment" name="assignment3" duedate="2015.12.06 23:59" pdf="assignment3-completed-webapp.pdf">Completed Webapp, introduced</assignment>
@@ -93,7 +93,7 @@ Course organizer for Comp4711
         <lab type="lab" name="lab07" duedate="2015.03.29 17:30">XML Processing</lab>-->
     </week>
     <week num="12">
-        <topic>XML-RPC</topic>
+        <topic>XSLT &amp; Xpath</topic>
  <!--                 <lesson type="lesson" name="advanced01">XML-RPC</lesson>
           <tutorial type="tutorial" name="tutorial08" >Authentication</tutorial>
             <lab type="lab" name="lab08" duedate="2015.04.10 17:30">Authentication</lab>
@@ -101,7 +101,7 @@ Course organizer for Comp4711
         -->
     </week>
     <week num="13">
-        <topic>REST &amp; JSON</topic>
+        <topic>XML Integration</topic>
         <!--        <lesson type="lesson" name="advanced02">REST &amp; JSON</lesson>
             <tutorial type="tutorial" name="tutorial08" >Authentication</tutorial>
             <lab type="lab" name="lab08" duedate="2015.04.10 17:30">Authentication</lab>
@@ -109,7 +109,7 @@ Course organizer for Comp4711
         -->
     </week>
     <week num="14">
-        <topic>Final Exam Week</topic>
+        <topic>Integration Best Practices</topic>
     </week>
     <week num="15">
         <topic>Final Exam Week</topic>
