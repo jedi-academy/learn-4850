@@ -17,22 +17,56 @@ Lab 02 - CodeIgniter Intro
     <slide title="Lab Submission" layout="normal">
         <p>Your lab will be completed in a github repository.</p>
         <p>Submit a readme to the lab dropbox, with a link to your github repository.</p>
-        <p>Due: Sunday, Sept 20, 17:30 PST</p>
+        <p>Due: three days after your lab, eg. Thursday lab period will have theirs
+            due Sunday, Jan 17, 17:30 PST</p>
+            <hr/>
+        <p>This is a pair lab, sharing s single repository, but each using
+        their own github account and computer.</p>
+        <p>If you insist on working on your own, you will need to setup a second github
+        account, and use two machines, to get the full benefit of the lab.</p>
+    </slide>
+
+    <slide title="Lab Preparation" layout="normal">
+        <p>Two devops tutorials are provided to help setup your development
+        environment for CodeIgniter. These should be done on each
+        of the machines you will be using.</p>
+        <ul>
+            <li>Tutorial <a href="http://devops.jlparry.com/show/tutorial/setup02" target="_blank">setup02</a>: virtual hosting</li>
+            <li>Tutorial <a href="http://devops.jlparry.com/show/tutorial/setup04" target="_blank">setup04</a>: CodeIgniter starter</li>
+        </ul>
     </slide>
 
     <slide title="Lab Work" layout="normal">
-        <p>Four tutorials have been provided, one to to setup your 
-            CodeIgniter development
-            environment (setup04), and then three to accomplish a static website into
-            a CodeIgniter webapp (in three stages - basic01, basic02 and basic03).</p>
+        <p>There are three tutorials to complete for this lab, for marks...</p>
+        <ul>
+            <li>Tutorial <a href="http://codeigniter.jlparry.com/show/tutorial/basic01" target="_blank">basic01</a>: trivial CI site </li>
+            <li>Tutorial <a href="http://codeigniter.jlparry.com/show/tutorial/basic02" target="_blank">basic02</a>: basic CodeIgniter webapp</li>
+            <li>Tutorial <a href="http://codeigniter.jlparry.com/show/tutorial/basic03" target="_blank">basic02</a>: good CodeIgniter webapp</li>
+        </ul>
+    </slide>
+
+    <slide title="Lab Process" layout="normal">
+        <p>Here comes the fun part...</p>
+        <ul>
+            <li>One of you will fork the starter repo, and add the other team member as a collaborator.</li>
+            <li>Each of you will clone your shared repo to their respective machines.</li>
+            <li>Complete the first tutorial with one of you "driving" and the other "navigatins". When done,
+            make sure you commit and push your changes to your shared repo.</li>
+            <li>Before starting the second tutorial, switch roles and computers. The new driver will need
+            to synchronize their repo with the shared one, and then work through the tutorial.
+            Remember to commit and push when done.</li>
+            <li>Before completing the third tutorial, switch roles and machines again. Synchronize,
+            complete tht tutorial, and push/commit your changes.</li>
+        </ul>
     </slide>
 
     <slide title="Lab Marking Guideline" layout="normal">
         <p>This lab will be marked out of 10, as follows:</p>
         <ul>
-            <li>Tutorial basic01: trivial CI site (2)</li>
-            <li>Tutorial basic02: basic CodeIgniter webapp (5)</li>
-            <li>Tutorial basic02: good CodeIgniter webapp (3)</li>
+            <li>Tutorial basic01: trivial CI site (3)</li>
+            <li>Tutorial basic02: basic CodeIgniter webapp (3)</li>
+            <li>Tutorial basic02: good CodeIgniter webapp (2)</li>
+            <li>Process - proper commit history (2)</li>
         </ul>
         <p>Your github repository will be in a state consistent with the end of one of the above,
         and you do not need three repos!</p>
@@ -42,24 +76,6 @@ Lab 02 - CodeIgniter Intro
         <p>We will not necessarily be following "best practices" throughout this lab.</p>
         <p>Our focus is on "baby steps", that will lead to best practices over the
             next few labs.</p>
-    </slide>
-
-    <slide title="Post Tutorial Notes" layout="normal">
-        <p>If you have completed the week 2 tutorials, you have a "system3" folder
-        inside "XAMPP_PATH/htdocs", and you have an idea how to convert a static
-        website into a CodeIgniter webapp.</p>
-        <p>If you want to play further, here are six free sample websites from 
-            <a href="http://www.freewebsitetemplates.com/">Free Website 
-                Templates</a> that could be converted too.
-        </p>
-        <ul>
-            <li><a href="http://www.freewebsitetemplates.com/download/hairstylesalon/">Hairstyle Salon</a></li>
-            <li><a href="http://www.freewebsitetemplates.com/download/lawfirm/">Law Firm Office</a></li>
-            <li><a href="http://www.freewebsitetemplates.com/download/beachresort/">Beach Resort</a></li>
-            <li><a href="http://www.freewebsitetemplates.com/download/gardenwalkthrough/">Garden Walkthrough</a></li>
-            <li><a href="http://www.freewebsitetemplates.com/download/woodworkingwebsitetemplate/">Wood Working</a></li>
-            <li><a href="http://www.freewebsitetemplates.com/download/zerotype/">Zerotype</a></li>
-        </ul>
     </slide>
 
 </lab>

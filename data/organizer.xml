@@ -16,15 +16,11 @@ Course organizer for Comp4711
 -->    </week>
     <week num="2">
         <topic>CodeIgniter MVC Framework &amp; Devops Workflow</topic>
- <!--        <lesson type="lesson" name="basic01" pdf="basic01-mvc-framework-introduction.pdf">MVC Framework Introduction</lesson>
-        <github type="github" name="contacts" link="https://github.com/comp4711/example-contacts">Example webapp - contacts</github>
-        <lesson type="lesson" name="dev01" pdf="dev01-devops-workflow.pdf">Devops Workflow</lesson>
-        <tutorial type="tutorial" name="setup04" pdf="setup04-setup-codeigniter.pdf">Setup CodeIgniter</tutorial>
-        <tutorial type="tutorial" name="basic01" pdf="basic01-convert-static-site-to-trivial-codeigniter.pdf">Convert Static Site to Trivial CodeIgniter</tutorial>
-        <tutorial type="tutorial" name="basic02" pdf="basic02-convert-trivial-site-to-basic-codeigniter.pdf">Convert Trivial Site to Basic CodeIgniter</tutorial>
-        <tutorial type="tutorial" name="basic03" pdf="basic03-convert-basic-site-to-good-codeigniter.pdf">Convert Basic Site to Good CodeIgniter</tutorial>
-        <lab type="lab" name="lab02" duedate="2015.09.20 17:30" pdf="lab02-codeigniter-intro.pdf">CodeIgniter Intro</lab>
-           -->
+         <lesson type="lesson" name="basic01" domain="codeigniter.jlparry.com" pdf="basic01-mvc-framework-introduction.pdf">MVC Framework Introduction</lesson>
+        <lesson type="lesson" name="basic01-other" domain="codeigniter.jlparry.com" pdf="basic01-other-framework-examples.pdf">Other MVC Framework Examples (optional)</lesson>
+        <github type="github" name="contacts" link="https://github.com/jedi-academy/example-contacts">Example webapp - contacts</github>
+        <lesson type="lesson" name="dev03" domain="devops.jlparry.com" pdf="dev03-devops-example.pdf">Workflow Example</lesson>
+        <lab type="lab" name="lab02" pdf="4850-lab02-codeigniter-intro.pdf">CodeIgniter Intro</lab>
     </week>
     <week num="3">
         <topic>Controllers &amp; Routing; Devops Collaboration</topic>
@@ -37,7 +33,6 @@ Course organizer for Comp4711
         <topic>Models &amp; ORM; Devops Issues</topic>
   <!--       <lesson type="lesson" name="basic03" pdf="basic03-models.pdf">Models</lesson>
         <lab type="lab" name="" duedate="2015.10.08">Work on or complete assignment 1</lab>
-        <assignment type="assignment" name="assignment1" duedate="2015.10.02 23:59" pdf="assignment1-basic-webapp.pdf">Basic Webapp</assignment>
            -->
     </week>
     <week num="5">
