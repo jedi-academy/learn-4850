@@ -23,11 +23,16 @@ Course organizer for ACIT4850
        <lab type="lab" name="lab02" pdf="4850-lab02-process-prep-REVISED.pdf">Process Prep (REVISED)</lab>
     </week>
     <week num="3">
-        <topic>Controllers &amp; Routing; Devops Collaboration</topic>
-  <!--         <lesson type="lesson" name="basic02" pdf="basic02-controller-concepts.pdf">Controller Concepts</lesson>
-        <tutorial type="tutorial" name="normal01" pdf="normal01-codeigniter-controllers.pdf">CodeIgniter Controllers</tutorial>
-        <lab type="lab" name="lab03" duedate="2015.09.27 17:30" pdf="lab03-working-with-controllers.pdf">Working With Controllers</lab>
-         -->
+        <topic>Controllers; Devops Collaboration</topic>
+       <lesson type="lesson" name="basic02" pdf="4850-basic02-controllers.pdf">Controllers</lesson>
+        <lab type="lab" name="lab03" pdf="4850-lab03-website-conversion.pdf">Website Conversion</lab>
+        <tutorial type="tutorial" name="ci-basic01" pdf="4850-ci-basic01-trivial-ci-site.pdf">Static to Trivial CI</tutorial>
+        <tutorial type="tutorial" name="ci-basic02" pdf="4850-ci-basic02-basic-ci-webapp.pdf">Trivial CI to Basic CI</tutorial>
+        <tutorial type="tutorial" name="ci-basic03" pdf="4850-ci-basic03-good-ci-webapp.pdf">Basic CI to Good CI</tutorial>
+    </week>
+   <week num="4">
+        <topic>Routing</topic>         
+        <lesson type="lesson" name="basic06" pdf="4850-basic06-routing.pdf">Routing</lesson>
     </week>
     <week num="4">
         <topic>Models &amp; ORM; Devops Issues</topic>

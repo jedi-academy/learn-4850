@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Lesson 03 - Controllers
+Lesson 02 - Controllers
 -->
 <lesson status="beta">
     <!-- Activity metadata ... override anything from the course or organizer -->
@@ -23,15 +23,6 @@ Lesson 03 - Controllers
             <li>
                 <a href="#{tag5}">Producing Output</a>
             </li>
-            <li>
-                <a href="#{tag6}">Routing</a>
-            </li>
-            <li>
-                <a href="#{tag7}">Hooks</a>
-            </li>
-            <li>
-                <a href="#{tag8}">Loose Ends</a>
-            </li>
         </ol>
     </slide>
 
@@ -50,7 +41,24 @@ Lesson 03 - Controllers
         </div>
         <div class="right">
             <br/>
-            <img class="scale" width="276" height="290" src="/data/lessons/pix/3-1.png"/>
+            <img class="scale" width="276" height="290" src="/data/lessons/pix/3/3-1.png"/>
+        </div>
+    </slide>
+
+    <slide title="Key Controller Abstractions" layout="normal">
+        <div class="left">
+            <p>The key abstractions for CI controllers:</p>
+            <ul>
+                <li>CI's <a href="http://www.codeigniter.com/user_guide/libraries/input.html" target="_blank">Input</a> class encapsulates an HTTP request</li>
+                <li>CI's <a href="http://www.codeigniter.com/user_guide/libraries/output.html" target="_blank">Output</a> class encapsulates an HTTP response</li>
+                <li>CI's <a href="http://www.codeigniter.com/user_guide/database/examples.html" target="_blank">Database</a> and <a href="http://www.codeigniter.com/user_guide/libraries/sessions.html" target="_blank">Session</a> drivers encapsulate container storage</li>
+                <li>CI provides libraries &amp; helpers to encapsulate or wrap common web components</li>
+                <li>Of course, you add your own or third party models, libraries and packages</li>
+            </ul>       
+        </div>
+        <div class="right">
+            <br/>
+            <img class="scale" width="720" height="288" src="/data/lessons/pix/3/3-arch.png"/>
         </div>
     </slide>
 
@@ -65,12 +73,10 @@ Lesson 03 - Controllers
                 <li>A <b>service</b> controller is expected to implement the
                     server side of some distributed system protocol (eg. REST).</li>
             </ul>
-            <p>This week's tutorial will address the first two types, while 
-                service controllers will be addressed in the last third of the course.</p>
         </div>
         <div class="right">
             <br/>
-            <img class="scale" width="445" height="330" src="/data/lessons/pix/3-2.png"/>
+            <img class="scale" width="445" height="330" src="/data/lessons/pix/3/3-2.png"/>
         </div>
     </slide>
 
@@ -365,190 +371,6 @@ Lesson 03 - Controllers
             <li>Build view parameters array</li>
             <li>Load the proper response view or template</li>
         </ol>
-    </slide>
-
-    <slide title="Routing" layout="normal" tag="tag6">
-        <p>The controller folder convention can be over-ridden by 
-            specifying 
-            <a href="http://www.codeigniter.com/userguide3/general/routing.html"
-               target="_blank">routing rules</a>, in 
-            <code>application/config/routes.php</code>
-        </p>
-        <p>An example such rule lets you change the default controller:<br/>
-            <code>$route['default_controller'] = 'welcome';</code>
-        </p>
-        <p>If you specify multiple rules, they are tested consecutively
-            until one fits.</p>
-    </slide>
-
-    <slide title="Wildcard Routing" layout="normal">
-        <div class="left">
-            <p>A routing rule can use a "wildcard" token,
-                <code>(:num)</code> to match a numeric segment value, or
-                <code>(:any)</code> to match any segment value.
-            </p>
-            <p>Specify an expression using these as the "key" for a routing
-                rule, and specify the proper destination as the "value".</p>
-            <p>You can use the substitution token <code>$n</code>
-                to reference a URI segment in the original request.</p>
-        </div>
-        <div class="right">
-            <p>Some examples of routing rules:</p>
-            <p>
-                <code>$route['blog/joe'] = "blogs/users/34";</code>
-            </p>
-            <p>
-                <code>$route['product/(:num)'] = "catalog/product_lookup_by_id/$1";</code>
-            </p>
-            <p>
-                <code>$route['page/(:any)'] = 'welcome/page/$1';</code>
-            </p>
-            <p>
-                <code>$route['secret'] = 'youllneverfindme/$1/$2';</code>
-            </p>
-        </div>
-    </slide>
-
-    <slide title="Regular Expression Routing" layout="normal">
-        <p>You can also use a regular expression in a routing rule.</p>
-        <p>For instance:<br/>
-            <code>$route['products/([a-z]+)/(\d+)'] = "$1/id_$2";</code>
-            <br/>
-            would remap <code>/products/banana/eat</code> 
-            to <code>/eat/id_banana</code>
-        </p>
-        <p>Another example:<br/>
-            <code>$route['([a-z]+)/register'] = 'assimilate/$0';</code>
-            <br/>
-            would remap <code>/jim/register</code> 
-            to <code>/assimilate/jim</code>
-        </p>
-    </slide>
-
-    <slide title="Callback Routing" layout="normal">
-        <p>If you are using PHP &gt;= 5.3 you can use callbacks in place 
-            of the normal routing rules to process the back-references.</p>
-        <p>For instance:<br/>
-            <code>$route['products/([a-zA-Z]+)/edit/(\d+)'] = <br/>
-                function ($product_type, $id)<br/>
-                {<br/>
-&#160;&#160;return 'catalog/product_edit/' . strtolower($product_type) . '/' . $id;<br/>
-                };<br/>
-
-            </code>
-        </p>
-        <p>
-            <emphasis>Author's note: this is new to me, and I don't have a
-                good explanation for it (yet).</emphasis>
-        </p>
-    </slide>
-
-    <slide title="HTTP Verb Routing" layout="normal">
-        <p>You can specify routing rules that apply to specific HTTP
-            request types. This would be applicable to utility and
-            service controllers.</p>
-        <p>Some examples, in a RESTful fashion:<br/>
-            <code>$route['products']['PUT'] = 'product/insert';</code>
-            <br/>
-            <code>$route['products/(:num)']['DELETE'] = 'product/delete/$1';</code>
-        </p>
-    </slide>
-
-    <slide title="Hooks" layout="normal" tag="tag7">
-        <div class="left">
-            <p>The CodeIgniter framework, internally, performs the
-                following steps to handle a request:</p>
-            <ol>
-                <li>Apply routing rules to determine the controller
-                    and method to use</li>
-                <li>Instantiate the controller</li>
-                <li>Invoke the appropriate method, capturing output</li>
-                <li>Return the output to the browser</li>
-            </ol>
-        </div>
-        <div class="right">
-            <p>CodeIgniter also provides "hooks", to let you
-                inject processing at various pre-defined stages of the
-                request handling.</p>
-            <p>Refer to the <a href="http://www.codeigniter.com/userguide3/general/hooks.html" 
-                               target="_blank">user guide</a> for details!</p>
-        </div>
-    </slide>
-
-    <slide title="Hook Points" layout="normal">
-        <p>The following are some of the "hook points" that you can use:</p>
-        <ul>
-            <li>pre_system</li>
-            <li>pre_controller</li>
-            <li>post_controller_constructor</li>
-            <li>post_controller</li>
-            <li>display_override</li>
-            <li>post_system</li>
-        </ul>
-        <p>Hooks are configured similarly to routes, and you can have
-            multiple hooks for the same hook point.</p>
-    </slide>
-
-    <slide title="Adding Hooks" layout="normal">
-        <p>Configure your hooks in <code>application/config/hooks</code></p>
-        <p>An example:</p>
-        <p>
-            <code>$hookie = array(<br/>
-            &#160;&#160;'class'=&gt;..., <br/>
-            &#160;&#160;'function'=&gt;..., <br/>
-            &#160;&#160;'filename'=&gt;..., <br/>
-            &#160;&#160;'filepath'=&gt;..., <br/>
-            &#160;&#160;'params'=&gt;...<br/>
-                );</code>
-        </p>
-        <p>
-            <code>$hooks[entrypoint][] = $hookie;</code>
-        </p>
-    </slide>
-
-    <slide title="Loose Ends" layout="normal" tag="tag8">
-        <p>Upcoming lessons will address some more exotic controller issues:
-            <ul>
-                <li>Webapp error handling (avoid getting fired)</li>
-                <li>Handling AJAX requests</li>
-                <li>Handling service requests</li>
-                <li>Handling plugins for additional resources</li>
-            </ul>
-        </p>
-        <p>Caution: Before using a feature, eg. hooks or routing, RTFM!</p>
-    </slide>
-
-    <slide title="Coding Conventions" layout="normal">
-        <div class="left">
-            <p>Required:
-                <ul>
-                    <li>Class and file naming - "ucfirst"</li>
-                </ul>
-            </p>
-           <p>Allowed:
-                <ul>
-                    <li>deviations from the suggested, for good reason</li>
-                    <li>multiple classes (related) in file</li>
-                </ul>
-            </p>
-            <p>Bad ideas:
-                <ul>
-                    <li>PHP namespaces (for now)</li>
-                </ul>
-            </p>
-        </div>
-        <div class="right">
-             <p>Suggested (for methods &amp; variables):
-                <ul>
-                    <li>words separated by underscores</li>
-                    <li>underscores in front of internal items</li>
-                    <li>Allman style braces &amp; indenting</li>
-                    <li>commenting, Javadoc style!</li>
-                    <li>value &amp; type comparison (===)!</li>
-                    <li>don't use closing PHP tag at end of file!</li>
-                </ul>
-            </p>
-        </div>
     </slide>
 
 
