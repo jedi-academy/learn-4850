@@ -22,6 +22,15 @@ Lesson 06 - Routing
 
 
     <slide title="Routing" layout="normal" tag="tag6">
+        <p>Segment-based routing is the normal CodeIgniter way of resolving
+            the handling of an incoming request.</p>
+        <p>There are alternatives: wildcard routing, regular expression routing, callback
+            routing, and HTTP verb routing.</p>
+        <p>For the truly adventurous you can even remap requests on the fly.</p>
+        <p>We'll look at each of these in turn.</p>
+    </slide>
+
+    <slide title="Routing Rules" layout="normal" >
         <p>The controller folder convention can be over-ridden by 
             specifying 
             <a href="http://www.codeigniter.com/userguide3/general/routing.html"
@@ -33,6 +42,7 @@ Lesson 06 - Routing
         </p>
         <p>If you specify multiple rules, they are tested consecutively
             until one fits.</p>
+        <p>Any reserved route rules must come before any wildcard or regular expression rules!</p>
     </slide>
 
     <slide title="Wildcard Routing" layout="normal">
@@ -58,7 +68,7 @@ Lesson 06 - Routing
                 <code>$route['page/(:any)'] = 'welcome/page/$1';</code>
             </p>
             <p>
-                <code>$route['secret'] = 'youllneverfindme/$1/$2';</code>
+                <code>$route['secret/(:any)/(:any)'] = 'youllneverfindme/$1/$2';</code>
             </p>
         </div>
     </slide>
@@ -68,8 +78,8 @@ Lesson 06 - Routing
         <p>For instance:<br/>
             <code>$route['products/([a-z]+)/(\d+)'] = "$1/id_$2";</code>
             <br/>
-            would remap <code>/products/banana/eat</code> 
-            to <code>/eat/id_banana</code>
+            would remap <code>/products/banana/25</code> 
+            to <code>/banana/id_25</code>
         </p>
         <p>Another example:<br/>
             <code>$route['([a-z]+)/register'] = 'assimilate/$0';</code>
@@ -92,8 +102,9 @@ Lesson 06 - Routing
             </code>
         </p>
         <p>
-            <emphasis>Author's note: this is new to me, and I don't have a
-                good explanation for it (yet).</emphasis>
+            This is code to execute, NOT a controller. In the above example, the two matched tokens
+            would be passed as the parameters  <code>$product_type</code> and 
+            <code>$id</code>.
         </p>
     </slide>
 
@@ -106,6 +117,56 @@ Lesson 06 - Routing
             <br/>
             <code>$route['products/(:num)']['DELETE'] = 'product/delete/$1';</code>
         </p>
+    </slide>
+
+    <slide title="Remapping On the Fly" layout="normal">
+         <div class="left">
+       <p>Separate from any routing rules, a controller itself can
+        affect the handling of an incoming request, through
+        a <code>_remap</code> method.</p>
+        <p>The _remap method lets you overwrite the normal 
+            behaviour for controller methods. If your controller has
+        this method, it is always called.</p>
+         </div>
+        <div class="right">
+        <p>An example which hides the real name of a method ...<pre><code>
+public function _remap($method, $parms=array() ) {
+    if ($method == 'work') $this->guessMeIfYouCan($parms);
+    else return call_user_func_array($method,$parms);
+}
+            </code></pre></p>
+        </div>
+    </slide>
+
+    <slide title="Remapping for Localization" layout="normal">
+         <div class="left">
+        <p>Remapping could also be used to handle of having a language code 
+            between the domain name and
+            the "normal" part of a URL, for instance
+            "https://msdn.microsoft.com/en-us/library/windows/desktop".</p>
+         <p>This way, URLs have the form <code>/idiom/class/method/parm1/...</code>,
+         where "idiom" is a language identifier.
+        </p>
+            <p>You need a routing rule to swap the idiom and the intended controller: <br/>
+            <code>$routes['(:any)/(:any)/(.+)'] = '$1/$0/$2';</code></p>
+            <p>This would redirect the example above to "/library/en-us/windows/desktop".</p>
+         </div>
+        <div class="right">
+            <p>Then, in your <code>Library</code> or base controller...<pre><code>
+public function _remap($method, $parms=array() ) {
+    $idiom = $method; // the alleged method is really an idiom
+    $this->lang->load('translations_for_this_controller',$idiom);
+    $real_method = array_shift($parms); // grab &amp; remove first
+    return call_user_func_array($real_method,$parms);
+}
+            </code></pre></p>            
+            <p>The above would handle <code>/fr/find/apple</code>
+                by calling <code>Find::apple(...)</code> with the <code>fr</code>
+                translations loaded.</p>
+            <p>See the <a href="http://www.codeigniter.com/user_guide/general/controllers.html?highlight=remap#remapping-method-calls" 
+                       target="_blank">user guide</a> for more details.</p>
+        </div>
+          
     </slide>
 
     <slide title="Hooks" layout="normal" tag="tag7">
@@ -121,11 +182,12 @@ Lesson 06 - Routing
             </ol>
         </div>
         <div class="right">
-            <p>CodeIgniter also provides "hooks", to let you
-                inject processing at various pre-defined stages of the
-                request handling.</p>
+            <p>CodeIgniter provides "hooks", to let you
+                inject processing before or after each of the milestones
+                shown to the left.</p>
             <p>Refer to the <a href="http://www.codeigniter.com/userguide3/general/hooks.html" 
-                               target="_blank">user guide</a> for details!</p>
+                               target="_blank">user guide</a> for the gory details
+                ... this is just a taste!</p>
         </div>
     </slide>
 
@@ -161,7 +223,7 @@ Lesson 06 - Routing
     </slide>
 
     <slide title="Loose Ends" layout="normal" tag="tag8">
-        <p>Upcoming lessons will address some more exotic controller issues:
+        <p>Upcoming lessons and tutorials may address some more exotic controller issues:
             <ul>
                 <li>Webapp error handling (avoid getting fired)</li>
                 <li>Handling AJAX requests</li>
@@ -179,7 +241,7 @@ Lesson 06 - Routing
                     <li>Class and file naming - "ucfirst"</li>
                 </ul>
             </p>
-           <p>Allowed:
+            <p>Allowed:
                 <ul>
                     <li>deviations from the suggested, for good reason</li>
                     <li>multiple classes (related) in file</li>
@@ -187,17 +249,17 @@ Lesson 06 - Routing
             </p>
             <p>Bad ideas:
                 <ul>
-                    <li>PHP namespaces (for now)</li>
+                    <li>PHP namespaces (for now), unless you know what you are doing</li>
                 </ul>
             </p>
         </div>
         <div class="right">
-             <p>Suggested (for methods &amp; variables):
+            <p>Suggested (for methods &amp; variables):
                 <ul>
                     <li>words separated by underscores</li>
                     <li>underscores in front of internal items</li>
                     <li>Allman style braces &amp; indenting</li>
-                    <li>commenting, Javadoc style!</li>
+                    <li>commenting, PHPdoc style!</li>
                     <li>value &amp; type comparison (===)!</li>
                     <li>don't use closing PHP tag at end of file!</li>
                 </ul>

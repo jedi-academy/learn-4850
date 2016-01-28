@@ -30,9 +30,11 @@ Course organizer for ACIT4850
         <tutorial type="tutorial" name="ci-basic02" pdf="4850-ci-basic02-basic-ci-webapp.pdf">Trivial CI to Basic CI</tutorial>
         <tutorial type="tutorial" name="ci-basic03" pdf="4850-ci-basic03-good-ci-webapp.pdf">Basic CI to Good CI</tutorial>
     </week>
-   <week num="4">
+    <week num="4">
         <topic>Routing</topic>         
         <lesson type="lesson" name="basic06" pdf="4850-basic06-routing.pdf">Routing</lesson>
+        <lab type="lab" name="lab04" pdf="4850-lab04-working-with-controllers.pdf">Working With Controllers</lab>
+        <tutorial type="tutorial" name="ci-normal01" pdf="4850-ci-normal01-controllers-and-routing.pdf">Controllers and Routing</tutorial>
     </week>
     <week num="4">
         <topic>Models &amp; ORM; Devops Issues</topic>
