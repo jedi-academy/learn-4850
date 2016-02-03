@@ -356,13 +356,14 @@ Normal 01 - Working With Controllers & Routing
                 <td>Strictly inside the routing configuration, something
                     like ...<pre>
                         <code>
-if (!file_exists($source)) { show_404($source); }
-$this->load->helper('file');
-$mimeType = get_mime_by_extension($source);
-header("Content-type: " . $mimeType);
-header('Content-Disposition: inline');
-readfile($source);  
-die();                         
+$route['dunno'] = function() {
+	$source = './data/surprise.jpg'; // an image you provide
+	// set the mime type for that image
+	header("Content-type: image/jpeg"); 
+	header('Content-Disposition: inline');
+	readfile($source); // dish it
+	die(); // and we don't have to go any further
+};                            
                         </code>
                     </pre>
                 </td>
