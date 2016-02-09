@@ -9,7 +9,10 @@ Lesson 05 - Views & Input Handling
     <slide title="Agenda" layout="normal">
         <ol>
             <li>
-                <a href="#{tag1}">View Assembly Strategies</a>
+                <a href="#{tag1}">View Construction Strategies</a>
+            </li>
+            <li>
+                <a href="#{tag9}">View Assembly Strategies</a>
             </li>
             <li>
                 <a href="#{tag2}">HTML Form Handling</a>
@@ -29,14 +32,14 @@ Lesson 05 - Views & Input Handling
 
     <!-- Normal slides -->
 
-    <slide title="VIEW ASSEMBLY STRATEGIES" layout="normal" tag="tag1">
+    <slide title="1. VIEW CONSTRUCTION STRATEGIES" layout="normal" tag="tag1">
         <p>Views are all about presentation, driven by UI design.
             Even if we take the perspective that "design" is not a programmer's
             job, we still need to provide the view components with the
             data to present.</p>
         <p>Most developers will use a CSS/Javascript framework to
             style the presentation nicely - integrating these into
-            a webapp is next week's lesson.</p>
+            a webapp is part of next week's lesson.</p>
     </slide>
 
     <slide title="Our Target View Excerpt" layout="normal" tag="tag1">
@@ -44,15 +47,15 @@ Lesson 05 - Views & Input Handling
             <p>Our views are data-driven, and we will look at several
                 strategies to assemble a view with iteration, such
                 as the table shown to the right. Each of the strategies 
-                that follow will end up with the same view - 
-                they differ in their approach.</p>
+                that follow will end up with the same view in the browser - 
+                they differ in their approach server-side.</p>
             <p>The view to the right shows a "typical" table,
                 with one row per contact. The styling comes from 
                 default Bootstrap CSS.</p>
         </div>
         <div class="right">
             <br/>
-            <img class="scale" width="760" height="220" src="/data/lessons/pix/5-1.png"/>
+            <img class="scale" width="760" height="220" src="/data/lessons/pix/5/5-1.png"/>
         </div>
     </slide>
 
@@ -167,7 +170,63 @@ Lesson 05 - Views & Input Handling
         <p>All of these are *legal*, but the first will cost you marks!</p>
     </slide>
 
-    <slide title="HTML FORM HANDLING" layout="normal" tag="tag2">
+    <slide title="2. VIEW ASSEMBLY STRATEGIES" layout="normal" tag="tag9">
+        <div class="left">
+            <p>View assembly refers to how you pull together your different view
+                fragments for presentation, regardless of how you constructed them.</p>
+            <p>Most assembly is by using a wireframe layout, naming the panels in it,
+                and then setting corresponding view parameters before rendering.</p>
+                <pre><code>$this-&gt;data['header'] = makeheader(...);
+$this-&gt;data['menu'] = makemenu(...);
+$this-&gt;data['content'] = makecontent(...);
+$this-&gt;data['footer'] = makefooter(...);</code>
+                </pre>
+        </div>
+        <div class="right">
+            <br/>
+            <img class="scale" width="375" height="297" src="/data/lessons/pix/5/5-8.gif"/>
+        </div>
+    </slide>
+
+    <slide title="Responsive Layout" layout="normal">
+        <div class="left">
+            <p>With responsive layout, you would build your view components and
+                assemble them with a desktop display in mind.</p>
+            <p>You would then user CSS, with media queries, to layout
+            the components differently for different browser window sizes,
+            or even to hide some of the panels at smaller resolution.</p>
+                <pre><code>$this-&gt;data['menu'] = makemenu(...);
+$this-&gt;data['submenu'] = makesubmenu(...);
+$this-&gt;data['sidebar'] = makesidebar(...);
+$this-&gt;data['content'] = makecontent(...);
+$this-&gt;data['footer'] = makefooter(...);</code>
+                </pre>
+        </div>
+        <div class="right">
+            <br/>
+            <img class="scale" width="626" height="447" src="/data/lessons/pix/5/5-10.png"/>
+        </div>
+    </slide>
+
+    <slide title="Multiple Layouts" layout="normal">
+        <div class="left">
+            <p>Multiple layouts are often appropriate for a site.</p>
+            <p>In such a case, you could pass the desired layout as
+                a view parameter, and inside your base controller's
+                <code>render()</code> method choose the appropriate layout template
+                to load. The layouts would share similar panel names, as
+                appropriate.</p>
+                <pre><code>$this-&gt;data['layout'] = 'secondary';
+$this-&gt;data['slideshow'] = makecarousel(...);
+$this-&gt;data['content'] = makecontent(...);</code></pre>
+        </div>
+        <div class="right">
+            <br/>
+            <img class="scale" width="736" height="552" src="/data/lessons/pix/5/5-11.jpg"/>
+        </div>
+    </slide>
+
+    <slide title="3. HTML FORM HANDLING" layout="normal" tag="tag2">
         <p>HTML form handling is really two separate issues:
             <ul>
                 <li>Handling submitted input, and</li>
@@ -179,8 +238,9 @@ Lesson 05 - Views & Input Handling
     </slide>
 
     <slide title="Sample Input to Handle" layout="normal">
-        <p>Refer to the <a href="https://github.com/comp4711/example-forms">
-                example-forms webapp</a> for actual code!</p>
+        <p>Refer to the <a href="https://github.com/jedi-academy/example-forms">
+                example-forms webapp</a> for *some* actual code
+            (no guarantees that it is complete)!</p>
         <div class="left">
             <p>A simple form, in pure HTML:</p>
             <code style="font-size:50%">
@@ -198,7 +258,7 @@ Lesson 05 - Views & Input Handling
         <div class="right">
             <p>The result of the form:</p>
             <br/>
-            <img class="scale" width="462" height="176" src="/data/lessons/pix/5-2.png"/>
+            <img class="scale" width="462" height="176" src="/data/lessons/pix/5/5-2.png"/>
         </div>
     </slide>
 
@@ -257,11 +317,11 @@ Lesson 05 - Views & Input Handling
         <p>An input form can be pretty simple, but ugly ... see below.</p>
         <div class="left">
             <br/>
-            <img class="scale" width="373" height="288" src="/data/lessons/pix/5-4.png"/>
+            <img class="scale" width="373" height="288" src="/data/lessons/pix/5/5-4.png"/>
         </div>
         <div class="right">
             <br/>
-            <img class="scale" width="815" height="139" src="/data/lessons/pix/5-3.png"/>
+            <img class="scale" width="815" height="139" src="/data/lessons/pix/5/5-3.png"/>
         </div>
     </slide>
 
@@ -297,8 +357,8 @@ Lesson 05 - Views & Input Handling
     </slide>
 
     <slide title="Making Forms With CodeIgniter" layout="normal">
-        <p>CodeIgniter provides an <a href="http://www.codeigniter.com/userguide3/helpers/form_helper.html"
-                                      target="_blank">
+        <p>CodeIgniter provides a <a href="http://www.codeigniter.com/userguide3/helpers/form_helper.html"
+                                     target="_blank">
                 Form Helper</a> to make this a bit easier.
             This would look something like...
         </p>
@@ -321,7 +381,7 @@ Lesson 05 - Views & Input Handling
             get hung up on this as *the way* to create forms!</p>
     </slide>
 
-    <slide title="DATA TRANSFER BUFFER" layout="normal" tag="tag3">
+    <slide title="4. DATA TRANSFER BUFFER" layout="normal" tag="tag3">
         <p>The "data transfer buffer" design pattern says that you use a session
             object (associative array, in our case) to hold field values for
             form handling.</p>
@@ -397,7 +457,7 @@ Lesson 05 - Views & Input Handling
                 </li>
             </ul>
         </p>
-        <p>The <code>userdatea()</code> method returns NULL if the requested 
+        <p>The <code>userdata()</code> method returns NULL if the requested 
             entry is not in the session, while the other techniques will trigger 
             a PHP error.</p>
     </slide>
@@ -438,7 +498,7 @@ Lesson 05 - Views & Input Handling
         </p>
     </slide>
 
-    <slide title="FILE UPLOADING" layout="normal" tag="tag4">
+    <slide title="5. FILE UPLOADING" layout="normal" tag="tag4">
         <p>File uploading is a standard expectation of a webapp.</p>
         <p>Your HTML form will need to use POST for submission, and you
             will need to specify an appropriate enclosure type, for
@@ -451,7 +511,7 @@ Lesson 05 - Views & Input Handling
 &lt;/form&gt;            
         </code>
         <p>This will result in something like</p>
-        <img class="scale" width="505" height="52" src="/data/lessons/pix/5-6.png"/>
+        <img class="scale" width="505" height="52" src="/data/lessons/pix/5/5-6.png"/>
     </slide>
 
     <slide title="Traditional File Uploading" layout="normal">
@@ -518,11 +578,11 @@ Lesson 05 - Views & Input Handling
             HTML, eg. the Jasny file 
             uploader (shown below), for Bootstrap.</p>
         <br/>
-        <img class="scale" width="897" height="323" src="/data/lessons/pix/5-7.png"/>
+        <img class="scale" width="897" height="323" src="/data/lessons/pix/5/5-7.png"/>
 
     </slide>
 
-    <slide title="LOOSE ENDS" layout="normal" tag="tag5">
+    <slide title="6. LOOSE ENDS" layout="normal" tag="tag5">
         <p>What about some of the slick forms widgets? 
             (date pickers, smart fields, etc)</p>
         <p>Most CSS frameworks use jQuery (or similar), 

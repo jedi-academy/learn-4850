@@ -2,7 +2,7 @@
 <!--
 Lab 04 - Models
 -->
-<lab status="1.1">
+<lab status="1.2">
     <!-- Activity metadata ... override anything from the course or organizer -->
     
     <!-- The meat of the presentation -->
@@ -12,33 +12,40 @@ Lab 04 - Models
             from the models lesson.</p>
         <p>Suggestion: you may want to skim the slideshow first,
             before working your way through it.</p>
+        <p>Due date: I have agreed to delay lab due dates by a couple of
+            days, to afford flexibility in managing your time.
+            The submission deadline is five days after your scheduled lab.</p>
     </slide>
 
-    <slide title="Lab Submission" layout="normal">
+    <slide title="Lab Completion" layout="normal">
         <p>Your lab will be completed in a github repository.
-            This will be your (forked) starter-lab04 repo. 
+            This will be your (forked) starter-jimsjoint repo. 
         </p>
+        <p>Follow gitflow workflow practices (forking &amp; branching).</p>
+        <p>I have created teams for you for this lab. If you end up as a team of one,
+            complete this on your own - you do not need to create a phantom user :-/
+            Use pair programming, with one of you setting things up and
+            then implementing the even numbered fixes, and with the other
+            implementing the odd numbered fixes.</p>
         <p>Please make sure that your work is in the "master" branch
-            or your repository, and that any other branches have
+            or your repository, when done, and that any other branch(es) have
             been merged into it.</p>
-        <p>Submit a readme to the lab dropbox. 
-            This readme should have a link to your github repository.</p>
-        <p>Due: Fri, Oct 16, 17:30 PST</p>
+        <p>Submit a readme to the lab dropbox, with a link to your github repository.</p>
     </slide>
 
     <slide title="Lab Marking Guideline" layout="normal">
-        <p>Part A addresses three models, and the corresponding changes to 
+        <p>The tutorial addresses three models, and the corresponding changes to 
             our two controllers.</p>
         <p>The menu and orderitems models are trivial, and effectively done. 
             The orders model is where most of the action happens. 
             The orders model has five methods needed, for 1 mark each.</p>
         <p>Making the welcome and order controllers work properly will get you 
             1 and 2 marks, respectively.</p>
-        <p>Proper repository branching and workflow make up the last 2 marks.</p>
+        <p>Proper git workflow makes up the last 2 marks.</p>
     </slide>
 
     <slide title="What Do We Do?" layout="normal">
-        <p>Complete tutorial "normal02 - working with models".</p>
+        <p>Complete the "ci-normal02" tutorial, <em>Working With CodeIgniter Models</em>.</p>
     </slide>
 
 </lab>

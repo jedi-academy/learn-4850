@@ -40,19 +40,15 @@ Course organizer for ACIT4850
     <week num="5">
         <topic>Models &amp; ORM</topic>
         
-        <lesson type="lesson" name="basic03" pdf="4711-basic03-models.pdf">CodeIgniter Models</lesson>
-        <lesson type="lesson" name="basic03-more" pdf="4711-basic03-models-more.pdf">More About Models (optional)</lesson>
-        <assignment type="assignment" name="assignment1" >Basic Webapp</assignment>
-        -->    
+        <lesson type="lesson" name="basic03" pdf="4850-basic03-models.pdf">CodeIgniter Models</lesson>
+        <lesson type="lesson" name="basic03-more" pdf="4850-basic03-models-more.pdf">More About Models (optional)</lesson>
     </week>
     <week num="6">
         <topic>Views &amp; Templating</topic>
-        <lesson type="lesson" name="basic04" pdx="basic04-views.pdf">Views (DRAFT)</lesson>
+        <lesson type="lesson" name="basic04" pdf="4850-basic04-views.pdf">Views</lesson>
         <github type="github" name="forms" link="https://github.com/jedi-academy/example-forms">Example webapp - forms</github>
-        <!--
-              <tutorial type="tutorial" name="normal02" pdf="normal02-working-with-codeigniter-models.pdf">Working With CodeIgniter Models</tutorial>
-               <lab type="lab" name="lab04" duedate="2015.10.16 17:30" pdf="lab04-models.pdf">Models</lab>
-        -->    
+        <tutorial type="tutorial" name="ci-normal02" pdf="4850-normal02-working-with-models.pdf">Working With CodeIgniter Models</tutorial>
+        <lab type="lab" name="lab05" pdf="4850-lab05-models.pdf">Models</lab>
     </week>
     <week num="7">
         <topic>Helpers &amp; CSS / Javascript Integration</topic>
