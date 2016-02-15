@@ -7,7 +7,8 @@ Midterm Exam Review
 
     <!-- Agenda -->
     <slide title="Agenda" layout="normal">
-        <p> Last term's midterm and solution have been posted in the "content" 
+        <p> Last term's midterm and solution have been posted in the 
+            <code>Supplementary</code> section of the "content" 
             area on D2L, as an example for you.</p>
         <ol>
             <li>
@@ -173,9 +174,9 @@ Midterm Exam Review
 
     <slide title="EXAM ESSENTIALS" layout="normal" tag="tag2">
         <ul>
-            <li>Date? Thurs Oct 29</li>
-            <li>When? 16:30 – 17:30</li>
-            <li>Where? NE1-239</li>
+            <li>Date? Weds Feb 24</li>
+            <li>When? 14:00-15:00</li>
+            <li>Where? SW3-1750</li>
             <li>How Long? One hour</li>
             <li>How long minimum? 30 minutes</li>
             <li>Aids: None</li>
@@ -192,19 +193,19 @@ Midterm Exam Review
             <li>Libraries &amp; helpers … 10% </li>
         </ul>
         <p>No, the above do not add up to 100%. That is on purpose, to give
-            me a bot of "wiggle room" coming up with questions.</p>
+            me a bit of "wiggle room" coming up with questions.</p>
     </slide>
 
     <slide title="What Format Will the Exam Have?" layout="normal">
         <ul>
-            <li>Multiple choice @1 ... 40-60</li>
-            <li>Completion @2 ... 0-5</li>
-            <li>Short answer @ 3 ... 0-5</li>
-            <li>60 marks in total</li>
+            <li>Multiple choice @1 ... 30</li>
+            <li>Completion @2 ... 10</li>
+            <li>Short answer @ 3 ... N/A</li>
+            <li>50 marks in total</li>
         </ul>
         <p>Doing the math, a 15% emphasis on MVC frameworks translates
-            to 9 out of 60 marks. This could be 9 multiple choice, or
-            3 short answer, or anything in between.</p>
+            to 7.5 out of 50 marks. This could be 7-8 multiple choice, or
+            4 completion questions.</p>
     </slide>
 
 </lesson>
