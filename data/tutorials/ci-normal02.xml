@@ -440,7 +440,7 @@ Tutorial 04 - Working With Models
         </div>
         <div class="right">
             <br/>
-            <img class="scale" width="517" height="255" src="/data/tutorials/pix/ci4/4-step4k.png"/>
+            <img class="scale" width="507" height="133" src="/data/tutorials/pix/ci4/4-step5b.png"/>
         </div>
     </slide>
 
@@ -543,8 +543,7 @@ Tutorial 04 - Working With Models
                 item from each menu category.</p>
             <p>
                 <code>models/Orders</code> has a <code>validate()</code> method. 
-                Implement this, and then the view parameter becomes easy ...<br/>
-                <code>$this-&gt;data['okornot'] = $this-&gt;orders-&gt;validate($num);</code>
+                Implement this, and then the view parameter will become easy ...<br/>
             </p>
         </div>
         <div class="right">
@@ -557,7 +556,8 @@ Tutorial 04 - Working With Models
         <div class="left">
             <p>
                 We can reference <code>Orders::validate</code> from our <code>checkout()</code> method ...<br/>
-                <code>$this-&gt;data['okornot'] = $this-&gt;orders-&gt;validate($num);</code>
+                <code>$this-&gt;data['okornot'] = $this-&gt;orders-&gt;validate($num)
+                     ? "" : "disabled";</code>
             </p>   
             <p>The checkout view should now show the Proceed button disabled.</p>
         </div>

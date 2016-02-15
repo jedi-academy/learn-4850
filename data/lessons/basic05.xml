@@ -2,7 +2,7 @@
 <!--
 Lesson 06 - Helpers & Addons
 -->
-<lesson status="beta">
+<lesson status="final">
     <!-- Activity metadata ... override anything from the course or organizer -->
 
     <!-- Agenda -->
@@ -29,7 +29,7 @@ Lesson 06 - Helpers & Addons
 
     <!-- Normal slides -->
 
-    <slide title="BUILDING ON CODEIGNITER" layout="normal" tag="tag1">
+    <slide title="1. BUILDING ON CODEIGNITER" layout="normal" tag="tag1">
         <p>So far, your webapp has been assembled using controllers.
             models and views. Helpers and libraries are two other
             kinds of components you can use in a CI webapp.</p>
@@ -70,7 +70,7 @@ Lesson 06 - Helpers & Addons
         </div>
         <div class="right">
             <br/>
-            <img class="scale" width="575" height="136" src="/data/lessons/pix/6-1.png"/>
+            <img class="scale" width="575" height="136" src="/data/lessons/pix/6/6-1.png"/>
         </div>
     </slide>
 
@@ -145,7 +145,7 @@ Lesson 06 - Helpers & Addons
         </div>
         <div class="right">
             <br/>
-            <img class="scale" width="580" height="154" src="/data/lessons/pix/6-2.png"/>
+            <img class="scale" width="580" height="154" src="/data/lessons/pix/6/6-2.png"/>
         </div>
     </slide>
 
@@ -154,7 +154,8 @@ Lesson 06 - Helpers & Addons
             <p>Each library is meant to hold a single useful class.</p>
             <p>One good practice is to ensure that libraries cannot be loaded
                 outside the context of CodeIgniter. This is done by making sure that
-                the <code>BASEPATH</code> constant is defined.</p>
+                the <code>BASEPATH</code> constant is defined - part
+                of the framework's bootstrap logic already.</p>
             <p>You don't have to worry about libraries being loaded twice -
                 the CodeIgniter loader takes care of that.</p>    
         </div>
@@ -269,7 +270,7 @@ Lesson 06 - Helpers & Addons
         <p>Treat this notion of packages as CodeIgniter-specific.</p>
     </slide>
 
-    <slide title="A CODEIGNITER LIBRARY (CABOOSE)" layout="normal" tag="tag2">
+    <slide title="2. A CODEIGNITER LIBRARY (CABOOSE)" layout="normal" tag="tag2">
         <p>
             <i>An <b>example</b> library, to help your understanding.</i>
         </p>
@@ -416,7 +417,7 @@ Lesson 06 - Helpers & Addons
     </slide>
 
 
-    <slide title="A CODEIGNITER HELPER (FORMFIELDS)" layout="normal" tag="tag3">
+    <slide title="3. A CODEIGNITER HELPER (FORMFIELDS)" layout="normal" tag="tag3">
         <p>The <b>Formfields</b> helper is a collection of functions, 
             and corresponding view fragments, 
             to deal with the styling of HTML form fields.</p>
@@ -438,7 +439,7 @@ Lesson 06 - Helpers & Addons
                 such as standard help text.</p>
             <p>The end result looks something like...</p>
             <br/>
-            <img class="scale" width="530" height="75" src="/data/lessons/pix/6-5.png"/>
+            <img class="scale" width="530" height="75" src="/data/lessons/pix/6/6-5.png"/>
         </div>
         <div class="right">
             <code>
@@ -560,9 +561,9 @@ Lesson 06 - Helpers & Addons
         </div>
     </slide>
 
-    <slide title="A CODEIGNITER PACKAGE" layout="normal" tag="tag4">
+    <slide title="4. A CODEIGNITER PACKAGE" layout="normal" tag="tag4">
         <p>To make one of the helpers or libraries into a package, 
-            set it up in its own folder, inside application/third_party, 
+            set it up in its own folder, inside <code>application/third_party</code>, 
             and autoload it.</p>
     </slide>
 
@@ -604,7 +605,7 @@ Lesson 06 - Helpers & Addons
     </slide>
 
 
-    <slide title="PACKAGE MANAGEMENT" layout="normal" tag="tag5">
+    <slide title="5. PACKAGE MANAGEMENT" layout="normal" tag="tag5">
         <div class="left">
         <p>
             <a href="https://getcomposer.org/" target="_blank">Composer</a>

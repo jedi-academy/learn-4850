@@ -52,14 +52,10 @@ Course organizer for ACIT4850
     </week>
     <week num="7">
         <topic>Helpers &amp; CSS / Javascript Integration</topic>
-        <lesson type="lesson" name="basic05" pdx="basic05-helpers-and-addons.pdf">Helpers and Addons (DRAFT)</lesson>
-        <!--
-              <lesson type="lesson" name="midterm" pdx="lessons1-6-midterm-review.pdf">Midterm Review</lesson>
-               <tutorial type="tutorial" name="normal05" pdf="normal05-working-with-libraries-and-helpers.pdf">Working With Libraries and Helpers</tutorial>
-               <tutorial type="tutorial" name="normal05b" pdf="normal05b-working-with-libraries-and-helpers-part2.pdf">Libraries and Helpers, Part (b)</tutorial>
-               <tutorial type="tutorial" name="normal05c">Libraries and Helpers, Part (c)</tutorial>
-               <lab type="lab" name="lab05" duedate="2015.10.25 17:30" pdf="lab05-views.pdf">Views</lab>
-        -->        
+        <lesson type="lesson" name="basic05" pdf="4850-basic05-helpers-and-addins.pdf">Helpers and Addins</lesson>
+        <lesson type="lesson" name="midterm" pdf="4850-midterm-review.pdf">Midterm Review</lesson>
+        <tutorial type="tutorial" name="ci-normal05" pdf="4850-ci-normal05-working-with-addins.pdf">Working With Addins</tutorial>
+        <lab type="lab" name="lab06" pdf="4850-lab06-addons.pdf">Addins</lab>
     </week>
     <week num="8">
         <topic>Midterm exam</topic>
