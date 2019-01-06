@@ -4,64 +4,68 @@ Course organizer for ACIT4850
 -->
 <organizer>
     <week num="1">
-        <topic>Introduction to MVC Webapps &amp; to Devops</topic>
-        <lesson type="lesson" name="intro00" pdf="4850-intro00-course-intro.pdf">Course Introduction</lesson>
-        <lesson type="lesson" name="intro01" pdf="4850-intro01-introduction.pdf">Material Introduction</lesson>
-        <lesson type="lesson" name="intro02" pdf="4850-intro02-golden-rules.pdf">Golden Rules</lesson>
-        <lesson type="lesson" name="dev01" domain="devops.jlparry.com" pdf="4850-dev01-devops-workflow.pdf">Devops Introduction</lesson>
-        <!--        <tutorial type="tutorial" name="setup01" pdf="setup01-xampp-installation.pdf">XAMPP Installation</tutorial>
-                <tutorial type="tutorial" name="setup02" pdf="setup02-virtual-hosting-setup.pdf">Virtual Hosting Setup</tutorial>
-                <tutorial type="tutorial" name="setup03" pdf="setup03-php-crash-course.pdf">PHP Crash Course</tutorial>
-                <lab type="lab" name="lab01" duedate="2015.09.13 17:30" pdf="lab01-development-setup.pdf">Development Setup</lab>
-        -->    
+        <topic>Introduction to XML</topic>
+        <lesson type="lesson" name="intro00">Course Introduction</lesson>
+        <lesson type="lesson" name="intro01" >Introduction to XML</lesson>
     </week>
     <week num="2">
-        <topic>CodeIgniter MVC Framework &amp; Devops Workflow</topic>
-        <lesson type="lesson" name="basic01" domain="codeigniter.jlparry.com" pdf="basic01-mvc-framework-introduction.pdf">MVC Framework Introduction</lesson>
-        <lesson type="lesson" name="basic01-other" domain="codeigniter.jlparry.com" pdf="basic01-other-framework-examples.pdf">Other MVC Framework Examples (optional)</lesson>
-        <github type="github" name="contacts" link="https://github.com/jedi-academy/example-contacts">Example webapp - contacts</github>
-        <lesson type="lesson" name="dev03" domain="devops.jlparry.com" pdf="dev03-devops-example.pdf">Workflow Example</lesson>
-        <lab type="lab" name="lab02" pdf="4850-lab02-process-prep-REVISED.pdf">Process Prep (REVISED)</lab>
+        <topic>Working with XML</topic>
+        <!-- 
+       <lesson type="lesson" name="basic01" domain="codeigniter.jlparry.com" pdf="basic01-mvc-framework-introduction.pdf">MVC Framework Introduction</lesson>
+       <lesson type="lesson" name="basic01-other" domain="codeigniter.jlparry.com" pdf="basic01-other-framework-examples.pdf">Other MVC Framework Examples (optional)</lesson>
+       <github type="github" name="contacts" link="https://github.com/jedi-academy/example-contacts">Example webapp - contacts</github>
+       <lesson type="lesson" name="dev03" domain="devops.jlparry.com" pdf="dev03-devops-example.pdf">Workflow Example</lesson>
+       <lab type="lab" name="lab02" pdf="4850-lab02-process-prep-REVISED.pdf">Process Prep (REVISED)</lab>
+        -->
     </week>
     <week num="3">
-        <topic>Controllers; Devops Collaboration</topic>
-        <lesson type="lesson" name="basic02" pdf="4850-basic02-controllers.pdf">Controllers</lesson>
-        <lab type="lab" name="lab03" pdf="4850-lab03-website-conversion.pdf">Website Conversion</lab>
-        <tutorial type="tutorial" name="ci-basic01" pdf="4850-ci-basic01-trivial-ci-site.pdf">Static to Trivial CI</tutorial>
-        <tutorial type="tutorial" name="ci-basic02" pdf="4850-ci-basic02-basic-ci-webapp.pdf">Trivial CI to Basic CI</tutorial>
-        <tutorial type="tutorial" name="ci-basic03" pdf="4850-ci-basic03-good-ci-webapp.pdf">Basic CI to Good CI</tutorial>
+        <topic>The XML DOM</topic>
+        <!-- 
+       <lesson type="lesson" name="basic02" pdf="4850-basic02-controllers.pdf">Controllers</lesson>
+       <lab type="lab" name="lab03" pdf="4850-lab03-website-conversion.pdf">Website Conversion</lab>
+       <tutorial type="tutorial" name="ci-basic01" pdf="4850-ci-basic01-trivial-ci-site.pdf">Static to Trivial CI</tutorial>
+       <tutorial type="tutorial" name="ci-basic02" pdf="4850-ci-basic02-basic-ci-webapp.pdf">Trivial CI to Basic CI</tutorial>
+       <tutorial type="tutorial" name="ci-basic03" pdf="4850-ci-basic03-good-ci-webapp.pdf">Basic CI to Good CI</tutorial>
+        -->
     </week>
     <week num="4">
-        <topic>Routing</topic>         
+        <topic>Constraining XML with a DTD</topic>         
+        <!-- 
         <lesson type="lesson" name="basic06" pdf="4850-basic06-routing.pdf">Routing</lesson>
         <lab type="lab" name="lab04" pdf="4850-lab04-working-with-controllers.pdf">Working With Controllers</lab>
         <tutorial type="tutorial" name="ci-normal01" pdf="4850-ci-normal01-controllers-and-routing.pdf">Controllers and Routing</tutorial>
+        -->
     </week>
     <week num="5">
-        <topic>Models &amp; ORM</topic>
-        
-        <lesson type="lesson" name="basic03" pdf="4850-basic03-models.pdf">CodeIgniter Models</lesson>
-        <lesson type="lesson" name="basic03-more" pdf="4850-basic03-models-more.pdf">More About Models (optional)</lesson>
+        <topic>Simple XML schema (XSD)</topic>
+        <!--         
+       <lesson type="lesson" name="basic03" pdf="4850-basic03-models.pdf">CodeIgniter Models</lesson>
+       <lesson type="lesson" name="basic03-more" pdf="4850-basic03-models-more.pdf">More About Models (optional)</lesson>
+        -->
     </week>
     <week num="6">
-        <topic>Views &amp; Templating</topic>
+        <topic>Advanced XML schema</topic>
+        <!-- 
         <lesson type="lesson" name="basic04" pdf="4850-basic04-views.pdf">Views</lesson>
         <github type="github" name="forms" link="https://github.com/jedi-academy/example-forms">Example webapp - forms</github>
         <tutorial type="tutorial" name="ci-normal02" pdf="4850-normal02-working-with-models.pdf">Working With CodeIgniter Models</tutorial>
         <lab type="lab" name="lab05" pdf="4850-lab05-models.pdf">Models</lab>
+        -->
     </week>
     <week num="7">
-        <topic>Helpers &amp; CSS / Javascript Integration</topic>
+        <topic>Family day</topic>
+        <!-- 
         <lesson type="lesson" name="basic05" pdf="4850-basic05-helpers-and-addins.pdf">Helpers and Addins</lesson>
         <lesson type="lesson" name="midterm" pdf="4850-midterm-review.pdf">Midterm Review</lesson>
         <tutorial type="tutorial" name="ci-normal05" pdf="4850-ci-normal05-working-with-addins.pdf">Working With Addins</tutorial>
         <lab type="lab" name="lab06" pdf="4850-lab06-addons.pdf">Addins</lab>
+        -->
     </week>
     <week num="8">
-        <topic>Midterm exam</topic>
+        <topic>XML transformation (XSL)</topic>
     </week>
     <week num="9">
-        <topic>XML Basics; Constrining XML</topic>
+        <topic>XML selection (XPath)</topic>
         <!--        <lesson type="lesson" name="xml01">XML Basics</lesson>
      <lesson type="lesson" name="xml02">Constraining XML</lesson>
      <example type="example" name="examples-xml.zip">Sample XML documents</example>
@@ -71,13 +75,13 @@ Course organizer for ACIT4850
         -->
     </week>
     <week num="10">
-        <topic>XML Processing; XML Strategies</topic>
+        <topic>XML formatting objects (XML-FO)</topic>
         <!--         <lab type="lab" name="" duedate="">Work on or complete assignment 2</lab>
         <assignment type="assignment" name="assignment2" duedate="2015.11.15 23:59" pdf="assignment2-functional-webapp.pdf">Functional Webapp</assignment>
         -->
     </week>
     <week num="11">
-        <topic>XML Schemas</topic>
+        <topic>XML databases</topic>
         <!--       <lesson type="lesson" name="xml03">XML Processing</lesson>
         <tutorial type="tutorial" name="xml02" >XML Processing</tutorial>
         <assignment type="assignment" name="assignment3" duedate="2015.12.06 23:59" pdf="assignment3-completed-webapp.pdf">Completed Webapp, introduced</assignment>
@@ -85,7 +89,7 @@ Course organizer for ACIT4850
         <lab type="lab" name="lab07" duedate="2015.03.29 17:30">XML Processing</lab>-->
     </week>
     <week num="12">
-        <topic>XSLT &amp; Xpath</topic>
+        <topic>Integration best practices</topic>
         <!--                 <lesson type="lesson" name="advanced01">XML-RPC</lesson>
           <tutorial type="tutorial" name="tutorial08" >Authentication</tutorial>
             <lab type="lab" name="lab08" duedate="2015.04.10 17:30">Authentication</lab>
@@ -93,7 +97,7 @@ Course organizer for ACIT4850
         -->
     </week>
     <week num="13">
-        <topic>XML Integration</topic>
+        <topic>Review &amp; assignment completion</topic>
         <!--        <lesson type="lesson" name="advanced02">REST &amp; JSON</lesson>
             <tutorial type="tutorial" name="tutorial08" >Authentication</tutorial>
             <lab type="lab" name="lab08" duedate="2015.04.10 17:30">Authentication</lab>
@@ -101,9 +105,6 @@ Course organizer for ACIT4850
         -->
     </week>
     <week num="14">
-        <topic>Integration Best Practices</topic>
-    </week>
-    <week num="15">
         <topic>Final Exam Week</topic>
     </week>
 </organizer>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE course SYSTEM "./xml/course.dtd">
+<!--
+Course metadata for Comp4711
+-->
+<course>
+    <!-- Course metadata -->
+    <code>comp1234</code>
+    <title>Introduction to XML</title>
+    <subtitle>COMP1234</subtitle>
+    <author>Wile E. Coyote</author>
+    <email>wile_coyote@bcit.ca</email>
+    <outline>http://www.bcit.ca/study/outlines/20171047992</outline>
+    <session>Winter 2017</session>
+    <school>B.C. Institute of Technology</school>
+    <site>http://www.bcit.ca/cas/computing/</site>
+    <license>MIT License</license>
+	
+    <!-- D2L specific fields -->
+    <ou>360899</ou>
+    
+    <!-- An introduction, shown at the top of the course homepage -->
+    <intro>
+        COMP1234 provides an introduction to XML data representation.
+    </intro>
+</course>
