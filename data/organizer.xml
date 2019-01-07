@@ -5,8 +5,10 @@ Course organizer for ACIT4850
 <organizer>
     <week num="1">
         <topic>Introduction to XML</topic>
-        <lesson type="lesson" name="intro00">Course Introduction</lesson>
-        <lesson type="lesson" name="intro01" >Introduction to XML</lesson>
+        <lesson name="intro00">Course Introduction</lesson>
+        <lesson name="intro01" >Introduction to XML</lesson>
+        <tutorial name="seminar01">Practice making an XML Document</tutorial>
+        <lab name="lab01">Sushi Menu XML Document</lab>
     </week>
     <week num="2">
         <topic>Working with XML</topic>

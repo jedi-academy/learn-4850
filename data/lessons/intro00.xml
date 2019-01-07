@@ -2,68 +2,101 @@
 <!--
 Lesson 00 - In-class Only Introduction
 -->
-<lesson status="beta">
-    <!-- Activity metadata ... override anything from the course or organizer -->
+<lesson status="2.0">
     
     <!-- The meat of the presentation -->
     <slide title="Your Instructor" layout="normal">
         <ul>
             <li>Jim Parry</li>
             <li>Day job: BCIT instructor</li>
-            <li>Off campus: webapp developer</li>
-            <li>Full-time: CI geek, Java not so much any more</li>
-            <li>Project Lead, CodeIgniter</li>
-            <li>Office &amp; phone: SW2-124, email instead</li>
+            <li>Nightlife: open source developer, sometimes webapps</li>
+            <li>XML advocate for 20+ years</li>
+            <li>Office: DTC-617, email or slack instead</li>
             <li>Email: jim_parry@bcit.ca</li>
         </ul>
     </slide>
 
     <slide title="You ..." layout="normal">
-        <p>Per the dayschool <a href="http://www.bcit.ca/study/outlines/20161073674" target="_blank">course outline</a>:</p>
+        <p>Per the <a href="https://www.bcit.ca/study/outlines/20191073674" target="_blank">course outline</a>:</p>
         <ul>            
-            <li>Required proficiency: programming, Java (ACIT2525)</li>
+            <li>Expected proficiency: database (1630), O-O programming (1515/2515), webapps (1620/2520)</li>
         </ul>
         <p>Per the dayschool <a href="http://www.bcit.ca/study/programs/5520diplt#courses" target="_blank">program matrix</a>:</p>
         <ul>
-            <li>Somewhat proficient: ASP.net; software design and process</li>
-            <li>Assumed: English, computer literacy, basic math, basic relational database, 
-                basic networks, basic algorithms, basic HTML/CSS</li>
+            <li>Somewhat proficient: javascript, node, express?, mongodb?, REST?</li>
             <li>Motivated, committed</li>
-            <li>Bonus: PHP, github, FOSS, Design patterns</li>
+            <li>Bonus: DOM, github</li>
         </ul>
     </slide>
 
     <slide title="Course Outcomes" layout="normal">
         <ul>
             <li>
-                <strong>Construct an MVC web application using a suitable framework</strong> (CodeIgniter)</li>
-            <li>Construct a valid and well-formed XML document, and constrain it with a DTD</li>
-            <li>Process XML data using DOM</li>
-            <li>Integrate distributed system components using XML-RPC and REST?</li>
+                <strong>Enterprise-strength distributed system glue</strong> (XML)</li>
+            <li>Construct robust XML documents, suitably constrained</li>
+            <li>Process XML data in Javascript: DOM traversal, DOM construction</li>
+            <li>Handle server-side XML validation &amp; transformation</li>
         </ul>
     </slide>
 
     <slide title="Course Context" layout="normal">
         <ul>
-            <li>
-                <a href="http://www.bcit.ca/study/outlines/20161073674" target="_blank">Course outline</a> on BCIT site</li>
-            <li>Organizer, lectures, tutorials, examples, labs &amp; assignments all on this site</li>
-            <li>Labs done individually, on github; readme (with link) to D2L dropbox</li>
-            <li>Assignments done in teams, on github; readme (with links) to D2L dropbox</li>
-            <li>Labs start: this week</li>
+            <li>Organizer, lectures, tutorials, labs &amp; assignments all on this site</li>
+            <li>Labs done individually, sorta</li>
+            <li>Assignments done in small teams, on github</li>
         </ul>
+    </slide>
+
+    <slide title="Course Resources" layout="normal">
+         <br/>
+        <div class="left">
+            Jedi Academy on github, using CodeIgniter3:
+            <ul>
+                <li>example-xml</li>
+                <li>example-schema</li>
+                <li>example-xsl</li>
+                <li>example-xml-models</li>
+                <li>example-simplexml</li>
+                <li>example-xmlrpc</li>
+                <li>learn-xml</li>
+            </ul>
+        </div>
+        <div class="right">
+            W3Schools, using Javascript:
+            <ul>
+                <li>XML</li>
+                <li>XML Ajax</li>
+                <li>XML DOM</li>
+                <li>XPath</li>
+                <li>XSLT</li>
+                <li>XQuery</li>
+                <li>XML DTD</li>
+                <li>XML Schema</li>
+            </ul>
+        </div>
     </slide>
 
     <slide title="Grading" layout="normal">
         <ul>
-            <li>25%: 4 assignments, building on each other, in teams of up to 4</li>
-            <li>30%: 9 labs, individual</li>
-            <li>20%: Midterm exam, weeks 1-7</li>
+            <li>25%: 3 assignments, building on each other, in teams of 2-3</li>
+            <li>40%: 9 labs, individual</li>
+            <li>10%: Quizzes &amp; participation; no midterm</li>
             <li>25%: Final exam, comprehensive</li>           
         </ul>
         <p>
-            <strong>Help:</strong> office hours, CI forum, CI IRC, github issues, trello board(s)
+            <strong>Help:</strong> slack channel, meetings as needed
         </p>
     </slide>
+
+    <slide title="Polcies" layout="normal">
+        <br/>
+        <b>Reminder:</b>
+        <ul>
+            <li>Attendance</li>
+            <li>Academic integrity</li>
+            <li>Accommodation</li>
+            <li>Discrimination</li>           
+        </ul>
+     </slide>
 
 </lesson>
