@@ -3,7 +3,7 @@ ACIT4850 - BCIT - Winter 2019
 
 ## Lab Goals
 
-This lab applies the techniques from the seminar 01, to build your own
+This lab applies the techniques from seminar 01, to build your own
 XML document.
 
 The value to this exercise is the lab feedback about the design
