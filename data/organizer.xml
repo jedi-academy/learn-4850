@@ -9,6 +9,7 @@ Course organizer for ACIT4850
         <lesson name="intro01" >Introduction to XML</lesson>
         <tutorial name="seminar01">Practice making an XML Document</tutorial>
         <lab name="lab01">Sushi Menu XML Document</lab>
+    <example icon="download" type="example" name="SushiMenus.zip">The sushi menus used in lab</example>
     </week>
     <week num="2">
         <topic>Working with XML</topic>
@@ -70,8 +71,8 @@ Course organizer for ACIT4850
         <topic>XML selection (XPath)</topic>
         <!--        <lesson type="lesson" name="xml01">XML Basics</lesson>
      <lesson type="lesson" name="xml02">Constraining XML</lesson>
-     <example type="example" name="examples-xml.zip">Sample XML documents</example>
-     <tutorial type="tutorial" name="xml01" >XML - Basics &amp; Constraints</tutorial>
+    <example type="example" name="examples-xml.zip">Sample XML documents</example>
+      <tutorial type="tutorial" name="xml01" >XML - Basics &amp; Constraints</tutorial>
      <lab type="lab" name="lab06" duedate="2015.11.08 17:30">XML Basics</lab>
      <assignment type="assignment" name="assignment2" duedate="2015.11.15 23:59" pdf="assignment2-functional-webapp.pdf">Functional Webapp, introduced</assignment>
         -->
