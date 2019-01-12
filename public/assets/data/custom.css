@@ -8,9 +8,9 @@
 .footer-copyright a { color: #ffffff;}
 .footer .footer-menu { background-color: #dedede;}
 .footer .footer-copyright { background-color: #3e3e3e;}
-.bcit50 {background: url('/assets/images/bcit.png') right top no-repeat;}
+.bcit50 {background: url('/assets/images/bcit-50.png') right top no-repeat;}
 .footer .nav-pills > li > a { color: #5B5B5D;}
-.footer .nav-pills > li > a:hover { color: #dd4814;}
+.footer .nav-pills > li > a:hover { color: #1473dd;}
 .footer .nav-pills > li.active > a { background-color: #aaa;}
 .title { color: #5B5B5D;}
 .well { background-color: #F5F5F5;}
@@ -21,7 +21,7 @@
 .jumbotron h1,jumbotron .h1 { color: #fff;}
 .newsitem { border-bottom: 1px solid #efefef;}
 .newsitem .date {color: #8ba8af;}
-.navbar-brand { background: url('/assets/images/4711.png') left top no-repeat;}
-.navbar-default { background-color: #DD4814; border-color: #BF3E11; }
+.navbar-brand { background: url('/assets/data/logo.png') left top no-repeat;}
+.navbar-default { background-color: #1473dd; border-color: #1126bf; }
  .navbar-default .navbar-nav li a { color: white; }
  .navbar-default .navbar-nav .active  a { color: white; background-color: #AE3910; }

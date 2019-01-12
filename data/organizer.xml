@@ -9,7 +9,7 @@ Course organizer for ACIT4850
         <lesson name="intro01" >Introduction to XML</lesson>
         <tutorial name="seminar01">Practice making an XML Document</tutorial>
         <lab name="lab01">Sushi Menu XML Document</lab>
-    <example icon="download" type="example" name="SushiMenus.zip">The sushi menus used in lab</example>
+        <example icon="download" type="example" name="SushiMenus.zip">The sushi menus used in lab</example>
     </week>
     <week num="2">
         <topic>Working with XML</topic>

@@ -1,9 +1,24 @@
-**Sushi Menus**
+### Week 2 - Jan 14
+
+We will be working with XML in class this week.
+Our seminar will walk you through building a simple Node app
+to read and process your sushi menu data, in order to provide
+a menu ... well, a sort of menu :)
+
+I recommend that you read the W3C's official explanation
+of the [Document Object Model](https://www.w3.org/TR/DOM-Level-3-Core/introduction.html),
+as that is the starting point for all things XML.
+Don't worry about the linked "Conformance" documents.
+
+Message me on slack, or email me, with any questions about the DOM,
+and I will make sure to incorporate them into this week's session.
+
+### Sushi Menus
 
 As promised, I am making the sushi menus available for download.
 I have added a line item for them in thr organizer, week 1.
 
-**Welcome :)**  
+### Welcome :)  
 
 Welcome to the course hub for ACIT4850.  
 Lessons, labs, and non-proprietary resource materials are hosted here.

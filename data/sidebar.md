@@ -1,7 +1,8 @@
 ## Course Instructors
 **Jim Parry**  
 DTC-617 <jim_parry@bcit.ca>   
-Online collaboration; announced first class.  
+
+**Meeting/consultation**: D2L virtual classroom or zoom video conference, at a mutually agreeable time. Don't forget the slack channel! 
 
 ## Desire2Learn LMS
 [Calendar](https://learn.bcit.ca/d2l/le/calendar/{ou})  
