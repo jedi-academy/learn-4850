@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson status="2.0">
+    <slide title="Working with XML" layout="normal" >
+        <p>The two most common ways to work with XML:</p>
+        <ul>
+            <li>Use a DOM parser to build an in-memory Document Object Model</li>
+            <li>Use a SAX parser to provide an event-driven Simple API for XML processing</li>
+        </ul>
+        <p>The DOM comes from the W3C, and it provides a consistent (albeit clunky) way
+            of processing an object model for an XML document, regardless of the 
+            programming language used.</p>
+        <p>We're going to work with Node.js, to avoid file access restrictions
+            present in a browser, and to set the stage for later server-side
+            processing that we will want to do.</p>
+    </slide>
+
+
+    <slide title="XML is Parsed into a DOM" layout="normal" tag="tag1">
+        <br/>
+        <img class="scale" width="703" height="327" src="/pix/w02/dom.png"/>
+    </slide>
+
+    <slide title="W3C Prescribes a DOM Interface" layout="normal" >
+        <br/>
+        <img class="scale" width="960" height="720" src="/pix/w02/classtree.jpg"/>
+    </slide>
+
+    <slide title="The Key DOM Methods" layout="normal" >
+        <br/>
+        <img class="scale" width="709" height="413" src="/pix/w02/methods.png"/>
+    </slide>
+
+    <slide title="A Bit of Relevant History" layout="normal" >
+        <ul>
+            <li>In the beginning, there was the browser</li>
+            <li>The W3C saw that it was good and created the W3C-DOM</li>
+            <li>Enterprise bought in, and the "real" programming languages (Java)
+            added support for it, enterprisy-style</li>
+            <li>... except for JDOM, grassroots</li>
+            <li>Adhoc languages tried to buy in (PHP, with DOM)</li>
+            <li>... but SimpleXml rules/rocks</li>
+            <li>Along came Javascript on the server (Node)</li>
+            <li>... without builtin support, and multiple competing and conflicting
+            implementations, of varying maturity</li>
+        </ul>
+    </slide>
+
+    <slide title="Document Decisions Affecting Your Work" layout="normal" >
+        <ul>
+            <li>Tag names - avoid proliferation</li>
+            <li>Attributes vs elements</li>
+            <li>ID attributes - be really careful</li>
+            <li>White space</li>
+            <li>Mixed content</li>
+        </ul>
+        <p>Pretty much anything is legal; just be aware that some of your
+        XML decisions may make processing the data more wordy or awkward.</p>
+    </slide>
+
+</lesson>

@@ -1,3 +1,11 @@
+### Lab 1 Marked
+
+I have finished marking lab 1, and posted the feedback.
+
+Many of my observations are just that, observations, and they don't
+necessarily mean that you should change your XML data.
+Please review them with me if you have questions, before changing anything!
+
 ### Week 2 - Jan 14
 
 We will be working with XML in class this week.

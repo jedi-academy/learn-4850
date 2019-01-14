@@ -13,13 +13,9 @@ Course organizer for ACIT4850
     </week>
     <week num="2">
         <topic>Working with XML</topic>
-        <!-- 
-       <lesson type="lesson" name="basic01" domain="codeigniter.jlparry.com" pdf="basic01-mvc-framework-introduction.pdf">MVC Framework Introduction</lesson>
-       <lesson type="lesson" name="basic01-other" domain="codeigniter.jlparry.com" pdf="basic01-other-framework-examples.pdf">Other MVC Framework Examples (optional)</lesson>
-       <github type="github" name="contacts" link="https://github.com/jedi-academy/example-contacts">Example webapp - contacts</github>
-       <lesson type="lesson" name="dev03" domain="devops.jlparry.com" pdf="dev03-devops-example.pdf">Workflow Example</lesson>
-       <lab type="lab" name="lab02" pdf="4850-lab02-process-prep-REVISED.pdf">Process Prep (REVISED)</lab>
-        -->
+        <lesson name="working" >Working with XML - Concepts</lesson>
+        <tutorial name="seminar02">Practice working with XML</tutorial>
+        <lab name="lab02">Print your Sushi Menu</lab>
     </week>
     <week num="3">
         <topic>The XML DOM</topic>
