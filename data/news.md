@@ -1,3 +1,9 @@
+## Week 3 - Jan 21
+
+No specific prep needed for this week's seminar - we are going to continue
+working with the DOM API, but from the "other side", i.e. building
+or modifying a DOM object.
+
 ## Planned System Outage!
 
 The institute electricals are being worked on this weekend, and D2L may be
