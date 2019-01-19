@@ -1,4 +1,4 @@
-## Week 3 - Jan 21
+## Week 3 - Jan 21 
 
 No specific prep needed for this week's seminar - we are going to continue
 working with the DOM API, but from the "other side", i.e. building
