@@ -16,16 +16,13 @@ Course organizer for ACIT4850
         <lesson name="working" >Working with XML - Concepts</lesson>
         <tutorial name="seminar02">Practice working with XML</tutorial>
         <lab name="lab02">Print your Sushi Menu</lab>
+        <example name="my4850seminar02" link="/download/my4850seminar02.zip" icon="download">Outcome of seminar 2</example>
     </week>
     <week num="3">
         <topic>The XML DOM</topic>
-        <!-- 
-       <lesson type="lesson" name="basic02" pdf="4850-basic02-controllers.pdf">Controllers</lesson>
-       <lab type="lab" name="lab03" pdf="4850-lab03-website-conversion.pdf">Website Conversion</lab>
-       <tutorial type="tutorial" name="ci-basic01" pdf="4850-ci-basic01-trivial-ci-site.pdf">Static to Trivial CI</tutorial>
-       <tutorial type="tutorial" name="ci-basic02" pdf="4850-ci-basic02-basic-ci-webapp.pdf">Trivial CI to Basic CI</tutorial>
-       <tutorial type="tutorial" name="ci-basic03" pdf="4850-ci-basic03-good-ci-webapp.pdf">Basic CI to Good CI</tutorial>
-        -->
+        <tutorial name="seminar03">Add to an XML document</tutorial>
+        <example name="4850seminar03" link="/download/4850seminar03.zip" icon="download">Starting point for seminar 3</example>
+        <lab name="lab03">Enhance and print your Sushi Menu</lab>
     </week>
     <week num="4">
         <topic>Constraining XML with a DTD</topic>         

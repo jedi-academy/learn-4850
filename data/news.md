@@ -4,13 +4,8 @@ No specific prep needed for this week's seminar - we are going to continue
 working with the DOM API, but from the "other side", i.e. building
 or modifying a DOM object.
 
-## Planned System Outage!
-
-The institute electricals are being worked on this weekend, and D2L may be
-unavailable Fri 23:30 - Sat 07:30 and Sat 23:30 - Sun 23:00.
-
-I have adjusted the dropbox deadlines to Sun 23:30 to accommodate this.  
-Don't leave things until the last minute!
+I have updated seminar 3, based on what we discovered during class.
+It should be a bit easier to follow now!
 
 ### Lab 1 Marked
 
