@@ -26,11 +26,7 @@ Course organizer for ACIT4850
     </week>
     <week num="4">
         <topic>Constraining XML with a DTD</topic>         
-        <!-- 
-        <lesson type="lesson" name="basic06" pdf="4850-basic06-routing.pdf">Routing</lesson>
-        <lab type="lab" name="lab04" pdf="4850-lab04-working-with-controllers.pdf">Working With Controllers</lab>
-        <tutorial type="tutorial" name="ci-normal01" pdf="4850-ci-normal01-controllers-and-routing.pdf">Controllers and Routing</tutorial>
-        -->
+        <example name="XML-DTD" link="/download/ACIT4850-XML-DTD-v1.3.ppt" icon="download">Prep for week 4</example>
     </week>
     <week num="5">
         <topic>Simple XML schema (XSD)</topic>

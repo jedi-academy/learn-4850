@@ -1,3 +1,12 @@
+## Week 4 - Jan 28
+
+We will be constraining XML with document type definitions (DTDs)
+this week. I have a powerpoint presentation for you to read
+over the weekend (see the week 4 tab). It is dry, but a reference for DTDs, and we
+will refer to it during our seminar this week.
+
+I will post the seminar and lab before Sunday evening.
+
 ## Week 3 - Jan 21 
 
 No specific prep needed for this week's seminar - we are going to continue
