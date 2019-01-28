@@ -27,9 +27,12 @@ Course organizer for ACIT4850
     <week num="4">
         <topic>Constraining XML with a DTD</topic>         
         <example name="XML-DTD" link="/download/ACIT4850-XML-DTD-v1.3.ppt" icon="download">Prep for week 4</example>
+        <tutorial name="seminar04">Constraining XML with a DTD</tutorial>
+        <lab name="lab04">DTD constraints for your Sushi Menu</lab>
     </week>
     <week num="5">
         <topic>Simple XML schema (XSD)</topic>
+            <assignment type="assignment" name="assignment1" duedate="">Basic timetable processing</assignment> 
         <!--         
        <lesson type="lesson" name="basic03" pdf="4850-basic03-models.pdf">CodeIgniter Models</lesson>
        <lesson type="lesson" name="basic03-more" pdf="4850-basic03-models-more.pdf">More About Models (optional)</lesson>
