@@ -6,6 +6,21 @@ ACIT4850 - BCIT - Winter 2019
 This lab applies the techniques from seminar 04, to add simple constraints to
 your sushi menu XML document.
 
+## UPDATES
+
+I have been unable to resolve the issue we had in class, trying to get our app
+to validate an XML document against a DTD in nodejs. Support for DTDs is
+very spotty in this world.
+
+Accordingly, I am removing that expectation for your lab, and will give
+everyone full marks for that rubric item.
+
+I will be validating your XML+DTD inside NetBeans. I suggest you do the same inside
+your IDE/editor. Just an FYI: Notepad++ (for those of you using Windows) has
+an [XML Tools plugin](https://sourceforge.net/projects/npp-plugins/files/XML%20Tools/)
+available. The link references v2.4.9, but you night be able to install a newer
+version, 2.4.11, from the plugins manager inside NPP.
+
 ## Lab Submission
 
 This is an individual lab.

@@ -5,7 +5,7 @@ this week. I have a powerpoint presentation for you to read
 over the weekend (see the week 4 tab). It is dry, but a reference for DTDs, and we
 will refer to it during our seminar this week.
 
-I will post the seminar and lab before Sunday evening.
+Update for lab 4 posted! See below!
 
 ## Week 3 - Jan 21 
 
