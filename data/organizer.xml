@@ -33,10 +33,6 @@ Course organizer for ACIT4850
     <week num="5">
         <topic>Simple XML schema (XSD)</topic>
             <assignment type="assignment" name="assignment1" duedate="">Basic timetable processing</assignment> 
-        <!--         
-       <lesson type="lesson" name="basic03" pdf="4850-basic03-models.pdf">CodeIgniter Models</lesson>
-       <lesson type="lesson" name="basic03-more" pdf="4850-basic03-models-more.pdf">More About Models (optional)</lesson>
-        -->
     </week>
     <week num="6">
         <topic>Advanced XML schema</topic>

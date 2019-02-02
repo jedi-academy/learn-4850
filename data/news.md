@@ -1,3 +1,20 @@
+## Week 5 - Feb 4
+
+We start our exploration of XML schemas this week, and I just know you
+have been looking forward to this, after DTDs!
+
+We will take a light look at schema basics, including simple and complex
+elements, but leave the heavier stuff until next week. This will let
+us put time aside in class for you to work on your assignment, and
+get help with it.
+
+As preparation for class this week, please read the 
+[W3Schools XML Schema Tutorial](https://www.w3schools.com/xml/schema_intro.asp).
+I am referring to the first six pages only, that they refer to in their navigation
+sidebar as "XSD Schema". I will do my best to put together a D2L quiz
+based on it for the beginning of our session, to see what sticks and
+where I need to put emphasis.
+
 ## Week 4 - Jan 28
 
 We will be constraining XML with document type definitions (DTDs)
@@ -6,45 +23,3 @@ over the weekend (see the week 4 tab). It is dry, but a reference for DTDs, and 
 will refer to it during our seminar this week.
 
 Update for lab 4 posted! See below!
-
-## Week 3 - Jan 21 
-
-No specific prep needed for this week's seminar - we are going to continue
-working with the DOM API, but from the "other side", i.e. building
-or modifying a DOM object.
-
-I have updated seminar 3, based on what we discovered during class.
-It should be a bit easier to follow now!
-
-### Lab 1 Marked
-
-I have finished marking lab 1, and posted the feedback.
-
-Many of my observations are just that, observations, and they don't
-necessarily mean that you should change your XML data.
-Please review them with me if you have questions, before changing anything!
-
-### Week 2 - Jan 14
-
-We will be working with XML in class this week.
-Our seminar will walk you through building a simple Node app
-to read and process your sushi menu data, in order to provide
-a menu ... well, a sort of menu :)
-
-I recommend that you read the W3C's official explanation
-of the [Document Object Model](https://www.w3.org/TR/DOM-Level-3-Core/introduction.html),
-as that is the starting point for all things XML.
-Don't worry about the linked "Conformance" documents.
-
-Message me on slack, or email me, with any questions about the DOM,
-and I will make sure to incorporate them into this week's session.
-
-### Sushi Menus
-
-As promised, I am making the sushi menus available for download.
-I have added a line item for them in thr organizer, week 1.
-
-### Welcome :)  
-
-Welcome to the course hub for ACIT4850.  
-Lessons, labs, and non-proprietary resource materials are hosted here.
