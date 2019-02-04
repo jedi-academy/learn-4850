@@ -32,7 +32,8 @@ Course organizer for ACIT4850
     </week>
     <week num="5">
         <topic>Simple XML schema (XSD)</topic>
-            <assignment type="assignment" name="assignment1" duedate="">Basic timetable processing</assignment> 
+        <tutorial name="seminar05">Constraining XML with a Schema</tutorial>
+        <assignment type="assignment" name="assignment1" duedate="">Basic timetable processing</assignment> 
     </week>
     <week num="6">
         <topic>Advanced XML schema</topic>
