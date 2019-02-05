@@ -15,6 +15,9 @@ sidebar as "XSD Schema". I will do my best to put together a D2L quiz
 based on it for the beginning of our session, to see what sticks and
 where I need to put emphasis.
 
+**Update: mystery of the missing seminar solved ... I didn't
+push it to my repo :( It will be next week's prep:)**
+
 ## Week 4 - Jan 28
 
 We will be constraining XML with document type definitions (DTDs)
