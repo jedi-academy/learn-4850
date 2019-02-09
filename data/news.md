@@ -1,3 +1,9 @@
+## Week 6 - Feb 11
+
+Please work through Seminar05 from last week (the one I forgot to push to the
+repo). It will be the starting point for this week's deeper dive
+into schemas!
+
 ## Week 5 - Feb 4
 
 We start our exploration of XML schemas this week, and I just know you
