@@ -4,6 +4,12 @@ Please work through Seminar05 from last week (the one I forgot to push to the
 repo). It will be the starting point for this week's deeper dive
 into schemas!
 
+This week's seminar & lab are ready for you.
+
+IF the institute declares Monday a "snow day", we will hold our class online,
+and I will post details on the slack channel.
+
+**Remember to check the bcit.ca website for any weather alerts in the morning!**
 
 ## Week 5 - Feb 4
 
