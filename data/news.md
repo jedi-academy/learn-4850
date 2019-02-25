@@ -1,3 +1,10 @@
+## Week 8 - Feb 25
+
+I don't want to start on XSL until you & I are comfortable with your handling
+of schemas. 
+
+I want to go over recent labs & assignment 1 with you, and remove barriers to
+moving forward.
 ## Week 6 - Feb 11
 
 Please work through Seminar05 from last week (the one I forgot to push to the

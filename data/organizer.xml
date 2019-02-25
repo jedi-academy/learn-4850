@@ -44,6 +44,10 @@ Course organizer for ACIT4850
         <topic>Family day</topic>
     </week>
     <week num="8">
+        <topic>XSD Practice</topic>
+         <assignment type="assignment" name="assignment2">Schema-constrained timetable processing</assignment>        
+    </week>
+    <week num="8">
         <topic>XML transformation (XSL)</topic>
         <!-- 
         <lesson type="lesson" name="basic05" pdf="4850-basic05-helpers-and-addins.pdf">Helpers and Addins</lesson>
