@@ -5,6 +5,9 @@ of schemas.
 
 I want to go over recent labs & assignment 1 with you, and remove barriers to
 moving forward.
+
+Update: I added a note about DOCTYPEs - see the week 8 tab below.
+
 ## Week 6 - Feb 11
 
 Please work through Seminar05 from last week (the one I forgot to push to the
