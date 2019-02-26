@@ -46,7 +46,7 @@ Course organizer for ACIT4850
     <week num="8">
         <topic>XSD Practice</topic>
          <assignment type="assignment" name="assignment2">Schema-constrained timetable processing</assignment>        
-     <lesson type="lesson" name="doctypes" icon="readme">DOCTYPES</lesson>
+     <lesson type="lesson" name="doctypes" icon="read">DOCTYPES</lesson>
     </week>
     <week num="9">
         <topic>XML transformation (XSL)</topic>
