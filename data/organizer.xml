@@ -45,57 +45,25 @@ Course organizer for ACIT4850
     </week>
     <week num="8">
         <topic>XSD Practice</topic>
-         <assignment type="assignment" name="assignment2">Schema-constrained timetable processing</assignment>        
-     <lesson type="lesson" name="doctypes" icon="read">DOCTYPES</lesson>
+        <assignment type="assignment" name="assignment2">Schema-constrained timetable processing</assignment>        
+        <lesson type="lesson" name="doctypes" icon="read">DOCTYPES</lesson>
     </week>
     <week num="9">
+        <topic>XSD Identity and Annotations</topic>
+        <assignment type="assignment" name="assignment2">Schema-constrained timetable processing</assignment>        
+    </week>
+    
+    <week num="10">
         <topic>XML transformation (XSL)</topic>
-        <!-- 
-        <lesson type="lesson" name="basic05" pdf="4850-basic05-helpers-and-addins.pdf">Helpers and Addins</lesson>
-        <lesson type="lesson" name="midterm" pdf="4850-midterm-review.pdf">Midterm Review</lesson>
-        <tutorial type="tutorial" name="ci-normal05" pdf="4850-ci-normal05-working-with-addins.pdf">Working With Addins</tutorial>
-        <lab type="lab" name="lab06" pdf="4850-lab06-addons.pdf">Addins</lab>
-        -->
-    </week>
-    <week num="10">
-        <topic>XML selection (XPath)</topic>
-        <!--        <lesson type="lesson" name="xml01">XML Basics</lesson>
-     <lesson type="lesson" name="xml02">Constraining XML</lesson>
-    <example type="example" name="examples-xml.zip">Sample XML documents</example>
-      <tutorial type="tutorial" name="xml01" >XML - Basics &amp; Constraints</tutorial>
-     <lab type="lab" name="lab06" duedate="2015.11.08 17:30">XML Basics</lab>
-     <assignment type="assignment" name="assignment2" duedate="2015.11.15 23:59" pdf="assignment2-functional-webapp.pdf">Functional Webapp, introduced</assignment>
-        -->
-    </week>
-    <week num="10">
-        <topic>XML formatting objects (XML-FO)</topic>
-        <!--         <lab type="lab" name="" duedate="">Work on or complete assignment 2</lab>
-        <assignment type="assignment" name="assignment2" duedate="2015.11.15 23:59" pdf="assignment2-functional-webapp.pdf">Functional Webapp</assignment>
-        -->
     </week>
     <week num="11">
-        <topic>XML databases</topic>
-        <!--       <lesson type="lesson" name="xml03">XML Processing</lesson>
-        <tutorial type="tutorial" name="xml02" >XML Processing</tutorial>
-        <assignment type="assignment" name="assignment3" duedate="2015.12.06 23:59" pdf="assignment3-completed-webapp.pdf">Completed Webapp, introduced</assignment>
-        <tutorial type="tutorial" name="xml03" >Creating XML</tutorial>
-        <lab type="lab" name="lab07" duedate="2015.03.29 17:30">XML Processing</lab>-->
+        <topic>XML selection (XPath)</topic>
     </week>
     <week num="12">
-        <topic>Integration best practices</topic>
-        <!--                 <lesson type="lesson" name="advanced01">XML-RPC</lesson>
-          <tutorial type="tutorial" name="tutorial08" >Authentication</tutorial>
-            <lab type="lab" name="lab08" duedate="2015.04.10 17:30">Authentication</lab>
-            <assignment type="assignment" name="assignment3" duedate="">Completed Webapp</assignment> 
-        -->
+        <topic>Advanced XML transformation (XSL)</topic>
     </week>
     <week num="13">
         <topic>Review &amp; assignment completion</topic>
-        <!--        <lesson type="lesson" name="advanced02">REST &amp; JSON</lesson>
-            <tutorial type="tutorial" name="tutorial08" >Authentication</tutorial>
-            <lab type="lab" name="lab08" duedate="2015.04.10 17:30">Authentication</lab>
-            <assignment type="assignment" name="assignment3" duedate="">Completed Webapp</assignment> 
-        -->
     </week>
     <week num="14">
         <topic>Final Exam Week</topic>

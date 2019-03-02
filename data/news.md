@@ -1,3 +1,20 @@
+## Week 9 - Mar 4
+
+Two things to share with you this week: XML keys and XML annotations.
+The first is a heads up at this point, and something you *could*
+integrate into assignment 2. The second is how you should be commenting
+the elements and attributes of your schema, and it will be added to the
+rubric for assignment 2, when I create the dropbox.
+
+No specific reading for this week - just make sure you have the first cut
+of your schemas for me to take a look at. Once we have talked about keys
+and annotations, and done a small exercise with them, you will have time
+to work on your assignment.
+
+I have made a few corrections to the post spring break sessions, with an
+extra week on XSL but dropping XML-FO and XML databases. We will talk
+about the XML pipeline during the review session in week 13.
+
 ## Week 8 - Feb 25
 
 I don't want to start on XSL until you & I are comfortable with your handling
