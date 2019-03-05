@@ -15,6 +15,19 @@ I have made a few corrections to the post spring break sessions, with an
 extra week on XSL but dropping XML-FO and XML databases. We will talk
 about the XML pipeline during the review session in week 13.
 
+### Lab 5
+
+I have finished grading lab 5, and posted the marks. They were not very good.
+I hope that the time we spent alst week, and working on assignment 2 this week,
+will help improve your understanding and construction of XSDs!
+
+### Assignment 2
+
+From what I observed with your lab 5, and pursuant to today's session and
+assignment 1 review with each team, I am adding some directions to
+assignment 2 - not to make more work for you, but to help focus
+your design & activity!
+
 ## Week 8 - Feb 25
 
 I don't want to start on XSL until you & I are comfortable with your handling
@@ -52,10 +65,3 @@ where I need to put emphasis.
 
 Update: mystery of the missing seminar solved ... I didn't
 push it to my repo :( It will be next week's prep:)
-
-## Week 4 - Jan 28
-
-We will be constraining XML with document type definitions (DTDs)
-this week. I have a powerpoint presentation for you to read
-over the weekend (see the week 4 tab). It is dry, but a reference for DTDs, and we
-will refer to it during our seminar this week.
