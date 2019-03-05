@@ -95,3 +95,11 @@ and/or code structure will improve the readability and the perceived worth of a 
 of your projects are getting very obtuse (hard to read/follow), for yourselves as well as an outsider.
 You said in class today that you are familiar with jsdoc-style commenting. _Ding!_ (or whatever
 sound a lightbulb coming on makes) -> you can use jsdoc-style block or inline comments to separate chunks of your code :)
+
+### Reminder: you can ask for help
+
+If you get stuck, ask for help! Post questions on our slack channel! Ask for a zoom session!
+
+I have previous commitments Thursday morning, and all day Saturday, but can be available
+Weds/Thu/Fri afternoon or late Weds/Thu evenings
+.
