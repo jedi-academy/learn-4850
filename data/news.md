@@ -1,3 +1,27 @@
+## Assignment 2 Update
+
+I understand that a number of you are struggling with assignment 2,
+given the current program workload. Several have asked about having
+assignment 2 due after spring break. 
+There was some concern about not having assignment 1 grades, but the
+feedback I gave each group in class this week should be what you need
+to move forward. I will try to get the grades published as soon as
+practical.
+
+I am willing to accommodate you somewhat, by extending the 
+assignment 2 due date
+to the weekend after spring break, namely Mar 17th. I see this as giving you two
+more days to work on the assignment, not seven - I want you to have a proper
+break! To encourage that, I will award a 10% bonus to submissions on or before the
+original due date, i.e. by 11:30 pm this Sunday.
+
+I am happy to set up zoom sessions, as needed, this Sunday (Mar 10th) or
+next Sunday (Mar 17th), between noon & 4pm.
+
+We will be starting on XSL transformations after spring break, 
+using the sushi menus XML data. The XSL that we create will not rely
+on your XSDs.
+
 ## Week 9 - Mar 4
 
 Two things to share with you this week: XML keys and XML annotations.
