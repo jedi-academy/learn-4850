@@ -51,11 +51,14 @@ Course organizer for ACIT4850
     <week num="9">
         <topic>XSD Identity and Annotations</topic>
         <assignment type="assignment" name="assignment2">Schema-constrained timetable processing</assignment>        
-         <tutorial name="seminar09">Identity constraints and annotations</tutorial>
-   </week>
+        <tutorial name="seminar09">Identity constraints and annotations</tutorial>
+    </week>
     
     <week num="10">
         <topic>XML transformation (XSL)</topic>
+        <example name="XSLintro" link="/download/ACIT4850-XSL-1.ppt" icon="read">Introduction to XSL</example>
+        <tutorial name="seminar10">Diving into XSL</tutorial>
+        <lab type="lab" name="lab06">XSL Presentation of Your Sushi Menu</lab>
     </week>
     <week num="11">
         <topic>XML selection (XPath)</topic>

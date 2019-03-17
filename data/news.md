@@ -1,3 +1,11 @@
+## Week 10 - Mar 18
+
+This week, we start our third & final topic grouping: eXtensible
+Stylesheet Language (XSL) :)
+
+I have posted the presentation I plan to use. The actual seminar and lab will
+be posted later this evening.
+
 ## Assignment 2 Update
 
 I understand that a number of you are struggling with assignment 2,
@@ -44,48 +52,3 @@ about the XML pipeline during the review session in week 13.
 I have finished grading lab 5, and posted the marks. They were not very good.
 I hope that the time we spent alst week, and working on assignment 2 this week,
 will help improve your understanding and construction of XSDs!
-
-### Assignment 2
-
-From what I observed with your lab 5, and pursuant to today's session and
-assignment 1 review with each team, I am adding some directions to
-assignment 2 - not to make more work for you, but to help focus
-your design & activity!
-
-## Week 8 - Feb 25
-
-I don't want to start on XSL until you & I are comfortable with your handling
-of schemas. 
-
-I want to go over recent labs & assignment 1 with you, and remove barriers to
-moving forward.
-
-**Update**: I added a note about DOCTYPEs - see the week 8 tab below.
-
-## Week 6 - Feb 11
-
-Please work through Seminar05 from last week (the one I forgot to push to the
-repo). It will be the starting point for this week's deeper dive
-into schemas!
-
-This week's seminar & lab are ready for you.
-
-## Week 5 - Feb 4
-
-We start our exploration of XML schemas this week, and I just know you
-have been looking forward to this, after DTDs!
-
-We will take a light look at schema basics, including simple and complex
-elements, but leave the heavier stuff until next week. This will let
-us put time aside in class for you to work on your assignment, and
-get help with it.
-
-As preparation for class this week, please read the 
-[W3Schools XML Schema Tutorial](https://www.w3schools.com/xml/schema_intro.asp).
-I am referring to the first six pages only, that they refer to in their navigation
-sidebar as "XSD Schema". I will do my best to put together a D2L quiz
-based on it for the beginning of our session, to see what sticks and
-where I need to put emphasis.
-
-Update: mystery of the missing seminar solved ... I didn't
-push it to my repo :( It will be next week's prep:)
