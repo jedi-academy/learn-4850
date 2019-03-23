@@ -63,6 +63,7 @@ Course organizer for ACIT4850
     </week>
     <week num="11">
         <topic>XML selection (XPath)</topic>
+        <example name="XPath" link="/download/ACIT4850-XPath.ppt" icon="read">XPath!</example>
     </week>
     <week num="12">
         <topic>Advanced XML transformation (XSL)</topic>
