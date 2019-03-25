@@ -2,6 +2,8 @@
 
 I have enabled the presentation for this week.
 
+Seminar & lab added.
+
 ## Week 10 - Mar 18
 
 This week, we start our third & final topic grouping: eXtensible
