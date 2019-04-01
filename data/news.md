@@ -1,3 +1,11 @@
+## Week 12 - Apr 1
+
+And now for something different... http://www.jenitennison.com/xslt/grouping/muenchian.html
+
+We are going to look at some XSL tricks to help you with assignment 3!
+
+And we are going to start on assignment 3, rather than have a hand-in lab :)
+
 ## Week 11 - Mar 25
 
 I have enabled the presentation for this week.

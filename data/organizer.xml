@@ -69,6 +69,8 @@ Course organizer for ACIT4850
     </week>
     <week num="12">
         <topic>Advanced XML transformation (XSL)</topic>
+        <example name="XSLadvanced" link="/download/ACIT4850-XSL-2.ppt" icon="read">Advanced XSL</example>
+       <assignment type="assignment" name="assignment3">XSL generated timetables</assignment>        
     </week>
     <week num="13">
         <topic>Review &amp; assignment completion</topic>
